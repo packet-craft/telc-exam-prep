@@ -1,6 +1,6 @@
 # Beruf B2 exam prep
 
-A static practice site for the **Deutsch-Test für den Beruf B2** (DTB B2): an exam overview, a spaced-repetition flashcard trainer, and four model tests. Plain HTML, CSS and JavaScript; no build step, no backend. Progress is stored in the browser (`localStorage`).
+A static practice site for the **Deutsch-Test für den Beruf B2** (DTB B2): an exam overview, a spaced-repetition flashcard trainer, and eight model tests. Plain HTML, CSS and JavaScript; no build step, no backend. Progress is stored in the browser (`localStorage`).
 
 This is an unofficial study aid. All texts and questions are original. Exam details follow the official telc practice test (Übungstest 1, 2022); always confirm current details with the exam provider.
 

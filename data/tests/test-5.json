@@ -1,0 +1,1325 @@
+{
+  "id": "test-5",
+  "title": "Model test 5",
+  "sections": [
+    {
+      "id": "lesen",
+      "title": "Lesen",
+      "minutes": 45,
+      "parts": [
+        {
+          "id": "lesen-1",
+          "title": "Lesen Teil 1",
+          "goal": "Informationen zum Arbeitsmarkt suchen",
+          "instructions": "Sie lesen in einem Online-Magazin Artikel rund um Arbeit und Beruf. Lesen Sie die Aufgaben 1–5 und die Texte a–h. Welcher Text passt zu welcher Person? Sie können jeden Text nur einmal verwenden. Drei Texte passen zu keiner Person.",
+          "options": [
+            {
+              "key": "a",
+              "title": "Mehr Geld – aber wie?",
+              "text": "Viele Beschäftigte sind mit ihrem Einkommen unzufrieden, trauen sich aber nicht, das Thema anzusprechen. Unsere Autorin erklärt, wann der richtige Zeitpunkt für ein Gespräch mit der Chefin ist, welche Argumente wirklich überzeugen und warum Sie vorher Ihre Erfolge der letzten Monate aufschreiben sollten. Mit einer Checkliste zum Herunterladen."
+            },
+            {
+              "key": "b",
+              "title": "Bewerbungsgespräch am Bildschirm",
+              "text": "Immer mehr Firmen lernen ihre Bewerberinnen und Bewerber zuerst online kennen. Damit das Gespräch vor der Kamera gelingt, sollten Sie Technik, Licht und Hintergrund rechtzeitig testen. Wir zeigen, wie Sie auch am Bildschirm sympathisch wirken, wohin Sie schauen sollten und was Sie tun können, wenn plötzlich die Verbindung abbricht."
+            },
+            {
+              "key": "c",
+              "title": "Weniger arbeiten, mehr Zeit haben",
+              "text": "Sie möchten Ihre Wochenstunden reduzieren, um mehr Zeit für Familie, Ehrenamt oder ein Hobby zu haben? Dann sollten Sie das Gespräch mit Ihrem Arbeitgeber gut vorbereiten. Lesen Sie, wie Sie Ihren Wunsch begründen, welche Arbeitszeitmodelle es gibt und wie Sie ausrechnen, was am Monatsende auf dem Konto übrig bleibt."
+            },
+            {
+              "key": "d",
+              "title": "Zurück an den Arbeitsplatz",
+              "text": "Nach einer längeren Familienpause hat sich im Betrieb oft vieles verändert: neue Programme, neue Kolleginnen, neue Abläufe. Unsere Expertin rät, schon einige Monate vor dem ersten Arbeitstag Kontakt zur Firma aufzunehmen und die Kinderbetreuung zu organisieren. So gelingt Müttern und Vätern der Neustart im alten Beruf ohne Stress."
+            },
+            {
+              "key": "e",
+              "title": "Der Traum vom eigenen Betrieb",
+              "text": "Wer sein eigener Chef werden möchte, braucht mehr als eine gute Idee. In vielen Städten bieten Kammern und Wirtschaftsförderungen kostenlose Sprechstunden an. Dort erfahren Sie, wie man einen Geschäftsplan schreibt, welche Kredite und Zuschüsse infrage kommen und welche Fehler Gründerinnen und Gründer im ersten Jahr vermeiden sollten."
+            },
+            {
+              "key": "f",
+              "title": "Von der Kollegin zur Chefin",
+              "text": "Wer zum ersten Mal ein Team leitet, steht vor ganz neuen Aufgaben: Gespräche führen, Arbeit verteilen, Konflikte lösen. In mehrtägigen Seminaren lernen neue Führungskräfte, wie sie ihre Rolle finden und klare Ziele setzen. Wir stellen drei Anbieter vor und sagen, für wen sich welches Programm eignet."
+            },
+            {
+              "key": "g",
+              "title": "Zum Berufsabschluss – auch mit Mitte dreißig",
+              "text": "Sie arbeiten seit Jahren in Ihrem Beruf, haben aber nie eine Ausbildung beendet? Mit Abendkursen und einer Prüfung bei der zuständigen Kammer können Erwachsene ihr Zeugnis nachträglich erwerben, ohne ihre Stelle aufzugeben. Wir erklären, wie der Weg dorthin aussieht und wo Sie sich in Ihrer Region beraten lassen können."
+            },
+            {
+              "key": "h",
+              "title": "Von der halben zur vollen Stelle",
+              "text": "Die Kinder sind größer, und Sie würden gern wieder mehr Stunden pro Woche arbeiten? Sprechen Sie Ihre Vorgesetzten frühzeitig an, am besten mit einem konkreten Vorschlag. Unser Ratgeber zeigt, wie Sie Ihren Wunsch formulieren und was Sie tun können, wenn im eigenen Team gerade keine zusätzlichen Stunden frei sind."
+            }
+          ],
+          "items": [
+            {
+              "n": 1,
+              "type": "match",
+              "prompt": "Mirela hat eine Teilzeitstelle in einer Zahnarztpraxis und möchte wissen, wie sie ihre Arbeitszeit erhöhen kann.",
+              "answer": "h",
+              "explanation": "Text h gives advice on asking for more weekly hours; text c is about reducing them."
+            },
+            {
+              "n": 2,
+              "type": "match",
+              "prompt": "Tomasz will eine eigene kleine Druckerei eröffnen und sucht eine Beratung, bei der er auch etwas über Finanzierungsmöglichkeiten erfährt.",
+              "answer": "e",
+              "explanation": "Text e describes free advice sessions for founders, including loans and grants."
+            },
+            {
+              "n": 3,
+              "type": "match",
+              "prompt": "Aylin arbeitet seit Jahren ohne Ausbildung in einem Reisebüro und möchte neben der Arbeit einen anerkannten Berufsabschluss machen.",
+              "answer": "g",
+              "explanation": "Text g explains how adults can gain a vocational certificate later without giving up their job."
+            },
+            {
+              "n": 4,
+              "type": "match",
+              "prompt": "Kwame ist zu einem Vorstellungsgespräch per Videoanruf eingeladen und möchte wissen, worauf er dabei achten muss.",
+              "answer": "b",
+              "explanation": "Text b gives tips for job interviews held in front of the camera."
+            },
+            {
+              "n": 5,
+              "type": "match",
+              "prompt": "Linh ist seit zwei Jahren in Elternzeit und sucht Tipps, wie sie die Rückkehr in ihre alte Firma am besten plant.",
+              "answer": "d",
+              "explanation": "Text d is about returning to the old job after a family break."
+            }
+          ]
+        },
+        {
+          "id": "lesen-2",
+          "title": "Lesen Teil 2",
+          "goal": "Einweisungen und Unterweisungen verstehen",
+          "instructions": "Sie haben eine neue Stelle angetreten und lesen Informationen Ihres Betriebs. Lesen Sie die beiden Texte und die Aufgaben 6–9. Entscheiden Sie bei den Aufgaben 6 und 8, ob die Aussage richtig oder falsch ist, und wählen Sie bei den Aufgaben 7 und 9 die richtige Lösung a, b oder c.",
+          "stimuli": [
+            {
+              "id": "t1",
+              "kind": "text",
+              "title": "Zahnarztpraxis Dr. Sommerfeld & Kollegen – Hinweise für neue Mitarbeiterinnen und Mitarbeiter",
+              "body": "Herzlich willkommen im Team! Damit Sie sich schnell zurechtfinden, haben wir die wichtigsten Regeln für Ihre ersten Wochen zusammengestellt.\n\nArbeitskleidung: Die Praxis stellt Ihnen drei Garnituren Kleidung zur Verfügung. Sie ziehen sich im Personalraum im Untergeschoss um; in Arbeitskleidung dürfen Sie das Gebäude nicht verlassen, auch nicht in der Mittagspause. Getragene Kleidung legen Sie in den blauen Wäschesack. Sie wird jeden Donnerstag von einer Wäscherei abgeholt und darf nicht zu Hause gewaschen werden.\n\nHygiene: Schmuck an Händen und Unterarmen sowie lackierte oder künstliche Fingernägel sind in den Behandlungsräumen nicht erlaubt. Vor und nach jeder Behandlung desinfizieren Sie Ihre Hände. Den Hygieneplan finden Sie in jedem Behandlungsraum neben dem Waschbecken.\n\nEinarbeitung: In den ersten vier Wochen begleitet Sie Frau Okonkwo als Patin. Sie zeigt Ihnen die Abläufe und beantwortet Ihre Fragen. Die Aufbereitung der Instrumente im Sterilisationsraum dürfen Sie erst übernehmen, nachdem Sie an der internen Schulung teilgenommen haben. Die nächste Schulung findet am 14. März statt; bitte melden Sie sich dafür bis Ende Februar am Empfang an."
+            },
+            {
+              "id": "t2",
+              "kind": "text",
+              "title": "Druckerei Farbwerk Nord – Sicherheitsunterweisung für die Produktion",
+              "body": "Diese Unterweisung gilt für alle Beschäftigten in der Produktionshalle sowie für Aushilfen und Praktikanten.\n\nMaschinen: An den Druck- und Schneidemaschinen dürfen nur Personen arbeiten, die von der Schichtleitung eingewiesen wurden und dies unterschrieben haben. Schutzabdeckungen dürfen nicht entfernt werden. Bevor Sie eine Maschine reinigen, schalten Sie sie am Hauptschalter aus. Lange Haare müssen zusammengebunden sein; Schals, Ketten und weite Ärmel sind an den Maschinen verboten.\n\nSchuhe und Gehörschutz: In der gesamten Halle tragen Sie Sicherheitsschuhe. Gehörschutz ist nur im gelb markierten Bereich um die Falzmaschinen vorgeschrieben; Sie erhalten ihn kostenlos im Lager.\n\nFarben und Reinigungsmittel: Benutzte Putzlappen können sich selbst entzünden. Werfen Sie sie deshalb nie in den normalen Müll, sondern ausschließlich in die roten Metallbehälter mit Deckel. Essen und Trinken ist in der Halle nicht gestattet; dafür steht der Pausenraum zur Verfügung.\n\nStörungen und Unfälle: Störungen an einer Maschine melden Sie sofort der Schichtleitung; versuchen Sie nicht, sie selbst zu reparieren. Jede Verletzung, auch eine kleine, tragen Sie noch am selben Tag in das Verbandbuch im Meisterbüro ein."
+            }
+          ],
+          "items": [
+            {
+              "n": 6,
+              "type": "tf",
+              "stimulus": "t1",
+              "prompt": "Um das Waschen der Arbeitskleidung kümmert sich ein Betrieb von außerhalb.",
+              "answer": true,
+              "explanation": "The clothes are collected by a laundry every Thursday and must not be washed at home."
+            },
+            {
+              "n": 7,
+              "type": "mc",
+              "stimulus": "t1",
+              "prompt": "Neue Mitarbeiterinnen und Mitarbeiter",
+              "options": {
+                "a": "arbeiten in den ersten vier Wochen am Empfang.",
+                "b": "müssen sich bei Frau Okonkwo für die Schulung anmelden.",
+                "c": "dürfen Instrumente erst nach einer Schulung aufbereiten."
+              },
+              "answer": "c",
+              "explanation": "Instrument reprocessing is only allowed after the internal training; registration is at reception, not with Ms Okonkwo."
+            },
+            {
+              "n": 8,
+              "type": "tf",
+              "stimulus": "t2",
+              "prompt": "Gehörschutz muss man überall in der Produktionshalle tragen.",
+              "answer": false,
+              "explanation": "Hearing protection is only required in the yellow-marked area around the folding machines."
+            },
+            {
+              "n": 9,
+              "type": "mc",
+              "stimulus": "t2",
+              "prompt": "Wenn eine Maschine nicht richtig funktioniert, sollen die Beschäftigten",
+              "options": {
+                "a": "den Fehler nach dem Ausschalten selbst beheben.",
+                "b": "den Vorfall in das Verbandbuch eintragen.",
+                "c": "umgehend die Schichtleitung informieren."
+              },
+              "answer": "c",
+              "explanation": "Faults must be reported to the shift supervisor at once and not repaired by staff; the first-aid book is for injuries."
+            }
+          ]
+        },
+        {
+          "id": "lesen-3",
+          "title": "Lesen Teil 3",
+          "goal": "Rahmenbedingungen der Arbeit verstehen",
+          "instructions": "Sie lesen im Mitarbeiterforum Ihrer Firma Fragen und Antworten zum Thema Zeiterfassung und Pausen. Lesen Sie die Fragen 10–13 und die Antworten a–f. Welche Antwort passt zu welcher Frage? Sie können jede Antwort nur einmal verwenden. Für eine Frage gibt es keine passende Antwort. Wählen Sie in diesem Fall x.",
+          "options": [
+            {
+              "key": "a",
+              "title": "Bogdan, vor 2 Stunden",
+              "text": "Überstunden werden bei uns nur anerkannt, wenn die Teamleitung sie vorher genehmigt hat. Sie landen dann auf dem Gleitzeitkonto und können später als freie Tage genommen werden. Mehr als zwanzig Plusstunden solltest du aber nicht ansammeln, sonst meldet sich die Personalabteilung bei dir und bittet dich, Stunden abzubauen."
+            },
+            {
+              "key": "b",
+              "title": "Henrike, vor 3 Stunden",
+              "text": "Zu Hause buchst du über die App auf dem Diensthandy oder über die Webseite der Zeiterfassung, mit denselben Zugangsdaten wie am Terminal. Zettel oder Tabellen nimmt die Personalabteilung nicht mehr an. Wichtig: Auch dort musst du deine Pausen buchen, sonst erscheint am nächsten Morgen eine Fehlermeldung."
+            },
+            {
+              "key": "c",
+              "title": "Yusuf, vor 5 Stunden",
+              "text": "Bei Fortbildungen übernimmt die Firma die Kursgebühr und die Fahrkarte, wenn du den Antrag vor der Anmeldung eingereicht hast. Die Belege lädst du danach im Reisekostenportal hoch. Das Geld kommt normalerweise mit dem nächsten Gehalt. Hotelkosten werden bei uns nur bei mehrtägigen Seminaren erstattet."
+            },
+            {
+              "key": "d",
+              "title": "Ana, vor 6 Stunden",
+              "text": "Fehlende Buchungen kannst du nicht selbst nachtragen. Füll im Intranet das Formular „Zeitkorrektur“ aus und schick es an deine Teamleitung. Sie bestätigt die Zeiten, und die Personalabteilung trägt sie ein. Das muss bis zum dritten Arbeitstag des Folgemonats passieren, danach ist der Monat abgeschlossen."
+            },
+            {
+              "key": "e",
+              "title": "Torben, vor 8 Stunden",
+              "text": "Kurze Unterbrechungen, zum Beispiel zum Rauchen oder für einen privaten Anruf, gelten bei uns nicht als Arbeitszeit. Du musst dich dafür am Terminal aus- und danach wieder einstempeln. Wer das mehrmals nicht tut, wird von der Teamleitung angesprochen. Ein Kaffee am Arbeitsplatz ist natürlich kein Problem."
+            },
+            {
+              "key": "f",
+              "title": "Ifeoma, vor 9 Stunden",
+              "text": "Das klappt bei uns leider nicht. Laut Betriebsvereinbarung soll die Pause die Arbeit unterbrechen, deshalb muss sie zwischen 11:30 und 13:30 Uhr genommen werden. Am Ende des Arbeitstages wird sie nicht anerkannt, das System zieht sie dann trotzdem automatisch ab. Die Regel steht im Intranet unter „Arbeitszeit“."
+            }
+          ],
+          "allowNone": true,
+          "items": [
+            {
+              "n": 10,
+              "type": "match",
+              "prompt": "Jamal: Ich habe gestern Abend vergessen, mich im Zeiterfassungssystem auszustempeln, und jetzt zeigt das Programm für den Tag gar keine Arbeitszeit an. Ich kann den Eintrag selbst nicht mehr ändern. An wen muss ich mich wenden, damit meine Stunden korrigiert werden, und gibt es dafür eine Frist?",
+              "answer": "d",
+              "explanation": "Reply d names the correction form, the team leader and the deadline."
+            },
+            {
+              "n": 11,
+              "type": "match",
+              "prompt": "Svetlana: Ich arbeite in Teilzeit und würde meine Mittagspause am liebsten ganz an den Schluss legen, um früher nach Hause gehen zu können. Meine Kollegin meint, dass das bei uns nicht erlaubt ist. Stimmt das? Im Mitarbeiterhandbuch habe ich dazu nichts gefunden.",
+              "answer": "f",
+              "explanation": "Reply f says the break must be taken between 11:30 and 13:30 and is not accepted at the end of the day."
+            },
+            {
+              "n": 12,
+              "type": "match",
+              "prompt": "Chidi: Seit diesem Monat bin ich zwei Tage pro Woche im Homeoffice. Im Büro stemple ich am Terminal neben dem Eingang, aber wie erfasse ich meine Arbeitszeit zu Hause? Muss ich meine Zeiten aufschreiben und später nachreichen, oder gibt es dafür eine andere Lösung?",
+              "answer": "b",
+              "explanation": "Reply b explains booking via the app or website when working from home."
+            },
+            {
+              "n": 13,
+              "type": "match",
+              "prompt": "Marisol: Ich war letzte Woche auf einer Fortbildung in einer anderen Stadt und bin dafür morgens und abends jeweils zwei Stunden mit dem Zug gefahren. Zählt diese Fahrzeit bei uns als Arbeitszeit, und wie trage ich sie in die Zeiterfassung ein? Bisher habe ich nur die Seminarstunden gebucht.",
+              "answer": "x",
+              "explanation": "No reply says whether travel time counts as working time; reply c only covers training costs and reply a only overtime."
+            }
+          ]
+        },
+        {
+          "id": "lesen-4",
+          "title": "Lesen Teil 4",
+          "goal": "Aufgaben und Aufgabenverteilung nachvollziehen",
+          "instructions": "Sie arbeiten in einer Hausverwaltung und lesen das Protokoll der letzten Teambesprechung. Lesen Sie das Protokoll und die Aufgaben 14–18. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+          "stimuli": [
+            {
+              "id": "p1",
+              "kind": "text",
+              "title": "Protokoll",
+              "body": "Protokoll der Teambesprechung – Hausverwaltung Lindenhof Immobilien\nDatum: Dienstag, 4. November, 9:00–10:15 Uhr\nOrt: Besprechungsraum 2\nAnwesend: Renate Vogt (RV, Geschäftsführung), Emre Aksoy (EA, Technik), Joanna Wiśniewska (JW, Buchhaltung), Daniel Mensah (DM, Mieterbetreuung), Pia Lorenz (PL, Auszubildende, Protokoll)\nEntschuldigt: Hannes Brückner (HB, Mieterbetreuung)\n\nTagesordnung\nTOP 1: Heizungsausfall Ahornweg 12\nTOP 2: Nebenkostenabrechnungen\nTOP 3: Neues Mieterportal\nTOP 4: Rufbereitschaft an den Feiertagen\nTOP 5: Eigentümerversammlung Birkenstraße\nTOP 6: Verschiedenes\n\nTOP 1: EA berichtet, dass die Heizung im Ahornweg 12 am Wochenende zwei Tage lang ausgefallen ist. Die Firma Thermotec hat am Montag ein Ersatzteil eingebaut; die Anlage läuft wieder. Drei Mieter haben bereits angekündigt, die Miete mindern zu wollen. RV wird diese Schreiben selbst beantworten. EA holt bis Ende des Monats zwei Angebote für einen Wartungsvertrag ein, damit solche Ausfälle seltener werden.\n\nTOP 2: JW teilt mit, dass die Abrechnungen für 14 der 19 Objekte verschickt sind. Bei den übrigen fünf fehlen noch die Rechnungen des Wasserversorgers. JW fragt dort diese Woche telefonisch nach. Alle Abrechnungen sollen spätestens am 28. November bei den Mietern sein. Rückfragen der Mieter gehen wie bisher zuerst an DM, der sie nur bei Bedarf an die Buchhaltung weiterleitet.\n\nTOP 3: Das Mieterportal, über das Mieter Schäden online melden können, startet nicht wie geplant am 1. Dezember, sondern erst Mitte Januar, weil der Anbieter die Verbindung zur Buchhaltungssoftware noch anpassen muss. DM entwirft bis zum nächsten Treffen ein Informationsschreiben an alle Mieter. PL testet das Portal vorab aus Sicht der Mieter und notiert Probleme.\n\nTOP 4: Zwischen dem 24. Dezember und dem 1. Januar ist das Büro geschlossen. Für Notfälle muss eine Person telefonisch erreichbar sein. EA übernimmt die Tage bis zum 28. Dezember; HB hat sich vorab bereit erklärt, die restlichen Tage zu übernehmen. Die Nummer des Notfalltelefons wird in allen Häusern ausgehängt; darum kümmern sich die Hausmeister. Wer Bereitschaft hat, bekommt dafür im Januar zwei freie Tage.\n\nTOP 5: Die Eigentümerversammlung für die Birkenstraße 5–9 findet am 20. November um 18 Uhr im Gemeindesaal statt. RV leitet die Versammlung. JW bereitet die Übersicht über die Rücklagen vor und stellt sie vor. Da HB an diesem Abend verhindert ist, schreibt DM das Protokoll. Die Einladungen sind bereits verschickt.\n\nTOP 6: Der Kopierer im Flur ist seit einer Woche defekt. PL ruft den Kundendienst an. RV erinnert daran, dass Fahrten mit dem Firmenwagen im Fahrtenbuch einzutragen sind; im Oktober fehlten mehrere Einträge.\n\nNächste Besprechung: Dienstag, 18. November, 9 Uhr\nProtokoll: Pia Lorenz"
+            }
+          ],
+          "items": [
+            {
+              "n": 14,
+              "type": "mc",
+              "stimulus": "p1",
+              "prompt": "Wegen des Heizungsausfalls im Ahornweg",
+              "options": {
+                "a": "sucht Herr Aksoy nach Firmen, die die Anlage regelmäßig warten.",
+                "b": "zahlen drei Mieter in diesem Monat weniger Miete.",
+                "c": "wird die Heizung Ende des Monats ausgetauscht."
+              },
+              "answer": "a",
+              "explanation": "EA is to obtain two quotes for a maintenance contract; the tenants have only announced a rent reduction."
+            },
+            {
+              "n": 15,
+              "type": "mc",
+              "stimulus": "p1",
+              "prompt": "Die Nebenkostenabrechnungen",
+              "options": {
+                "a": "sind inzwischen für alle Objekte verschickt.",
+                "b": "können zum Teil noch nicht erstellt werden, weil Unterlagen fehlen.",
+                "c": "werden bei Rückfragen direkt von der Buchhaltung erklärt."
+              },
+              "answer": "b",
+              "explanation": "For five properties the water supplier's invoices are still missing; queries go to DM first."
+            },
+            {
+              "n": 16,
+              "type": "mc",
+              "stimulus": "p1",
+              "prompt": "Das neue Mieterportal",
+              "options": {
+                "a": "wird ab dem 1. Dezember von den Mietern genutzt.",
+                "b": "wird vor dem Start von Herrn Mensah getestet.",
+                "c": "geht später in Betrieb als ursprünglich vorgesehen."
+              },
+              "answer": "c",
+              "explanation": "The start is postponed from 1 December to mid-January; PL, not DM, tests the portal."
+            },
+            {
+              "n": 17,
+              "type": "mc",
+              "stimulus": "p1",
+              "prompt": "Während der Feiertage",
+              "options": {
+                "a": "ist das Büro für Notfälle besetzt.",
+                "b": "teilen sich zwei Kollegen die telefonische Bereitschaft.",
+                "c": "hängt Herr Aksoy die Notfallnummer in den Häusern aus."
+              },
+              "answer": "b",
+              "explanation": "EA covers the days up to 28 December and HB the rest; the office is closed and the caretakers put up the number."
+            },
+            {
+              "n": 18,
+              "type": "mc",
+              "stimulus": "p1",
+              "prompt": "Bei der Eigentümerversammlung",
+              "options": {
+                "a": "übernimmt Herr Brückner das Protokoll.",
+                "b": "leitet Frau Wiśniewska die Sitzung.",
+                "c": "schreibt Herr Mensah mit, was besprochen wird."
+              },
+              "answer": "c",
+              "explanation": "Because HB cannot attend, DM takes the minutes; RV chairs the meeting."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesen-schreiben",
+      "title": "Lesen und Schreiben",
+      "minutes": 20,
+      "parts": [
+        {
+          "id": "lesen-schreiben",
+          "title": "Lesen und Schreiben",
+          "goal": "Beschwerden verstehen und darauf reagieren",
+          "instructions": "Sie arbeiten im Reisebüro Sonnenweg. Ihre Teamleiterin hat Ihnen die E-Mail eines Kunden weitergeleitet. Lesen Sie die Nachricht Ihrer Teamleiterin und die E-Mail des Kunden. Lösen Sie zuerst die Aufgaben 19 und 20. Schreiben Sie dann eine Antwort an den Kunden (Aufgabe 21).",
+          "stimuli": [
+            {
+              "id": "n1",
+              "kind": "text",
+              "title": "Nachricht Ihrer Teamleiterin",
+              "body": "Hallo,\n\nkönnen Sie bitte heute noch Herrn Baumgartner antworten? Ich bin bis Donnerstag auf der Messe. Bitte\n– entschuldigen Sie sich für den Fehler bei der Buchung des Transfers,\n– erklären Sie, dass wir die Taxikosten von 85 Euro erstatten, sobald er uns die Quittung geschickt hat,\n– bieten Sie ihm einen Gutschein über 50 Euro für seine nächste Buchung an.\n\nDanke und viele Grüße\nNuria Castillo\nTeamleitung, Reisebüro Sonnenweg"
+            },
+            {
+              "id": "m1",
+              "kind": "text",
+              "title": "E-Mail des Kunden",
+              "body": "Betreff: Beschwerde – Reise nach Lissabon\n\nSehr geehrte Damen und Herren,\n\nvom 6. bis 13. Oktober war ich mit meiner Frau in Lissabon. Die Reise hatten wir in Ihrem Büro gebucht, einschließlich des Transfers vom Flughafen zum Hotel. Leider muss ich mich über Ihre Organisation beschweren.\n\nBei unserer Ankunft wartete kein Fahrer auf uns. Unter der Notfallnummer in den Reiseunterlagen meldete sich nur ein Anrufbeantworter. Nach einer Stunde haben wir schließlich ein Taxi genommen und dafür 85 Euro bezahlt. Im Hotel stellte sich dann heraus, dass der Transfer für den falschen Tag bestellt worden war, nämlich für den 7. Oktober.\n\nDas Hotel selbst und die Flüge waren in Ordnung. Trotzdem war der Beginn unseres Urlaubs sehr ärgerlich. Ich erwarte, dass Sie mir die Taxikosten ersetzen, und bitte um eine Stellungnahme bis Ende der Woche. Die Quittung habe ich aufbewahrt.\n\nMit freundlichen Grüßen\nFriedrich Baumgartner"
+            }
+          ],
+          "items": [
+            {
+              "n": 19,
+              "type": "mc",
+              "stimulus": "m1",
+              "prompt": "Herr Baumgartner beschwert sich, weil",
+              "options": {
+                "a": "das Hotel nicht der Beschreibung entsprach.",
+                "b": "er am Flughafen nicht abgeholt wurde.",
+                "c": "der Fahrer eine Stunde zu spät kam."
+              },
+              "answer": "b",
+              "explanation": "No driver was waiting on arrival; the hotel and flights were fine, and the driver never came at all."
+            },
+            {
+              "n": 20,
+              "type": "mc",
+              "stimulus": "m1",
+              "prompt": "Herr Baumgartner möchte, dass das Reisebüro",
+              "options": {
+                "a": "ihm das Geld für das Taxi zurückzahlt.",
+                "b": "ihm einen Teil des Reisepreises erstattet.",
+                "c": "ihm eine neue Reise anbietet."
+              },
+              "answer": "a",
+              "explanation": "He expects the travel agency to reimburse the taxi costs."
+            }
+          ],
+          "writing": {
+            "n": 21,
+            "task": "Antworten Sie Herrn Baumgartner per E-Mail. Gehen Sie auf alle Punkte ein, die Ihre Teamleiterin genannt hat. Achten Sie auf eine passende Anrede, einen höflichen Ton und eine Grußformel.",
+            "points": [
+              "sich für den Fehler bei der Buchung des Transfers entschuldigen",
+              "erklären: Erstattung der Taxikosten (85 Euro), sobald die Quittung vorliegt",
+              "Gutschein über 50 Euro für die nächste Buchung anbieten"
+            ],
+            "wordHint": "ca. 100–150 Wörter",
+            "modelAnswer": "Betreff: Ihre Beschwerde – Reise nach Lissabon\n\nSehr geehrter Herr Baumgartner,\n\nvielen Dank für Ihre Nachricht. Es tut uns sehr leid, dass Sie und Ihre Frau am Flughafen in Lissabon nicht abgeholt wurden. Bei der Buchung des Transfers ist uns leider ein Fehler passiert: Er wurde für den falschen Tag bestellt. Dafür möchten wir uns in aller Form bei Ihnen entschuldigen.\n\nSelbstverständlich erstatten wir Ihnen die Taxikosten in Höhe von 85 Euro. Bitte schicken Sie uns dazu die Quittung per E-Mail oder per Post. Sobald sie bei uns eingegangen ist, überweisen wir Ihnen den Betrag.\n\nAls kleine Entschädigung für den Ärger möchten wir Ihnen außerdem einen Gutschein über 50 Euro für Ihre nächste Buchung in unserem Reisebüro anbieten.\n\nWir hoffen, dass Sie uns auch in Zukunft Ihr Vertrauen schenken. Bei Fragen können Sie sich jederzeit gern an mich wenden.\n\nMit freundlichen Grüßen\n(Ihr Name)\nReisebüro Sonnenweg",
+            "criteria": [
+              "Did you cover all three points from the team leader's note?",
+              "Did you use a formal salutation, the Sie form and a closing formula?",
+              "Is your apology polite and does it refer to the customer's actual problem?",
+              "Did you say clearly what the customer has to do to get his money back?",
+              "Is your e-mail about 100–150 words long and structured in paragraphs?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hoeren",
+      "title": "Hören",
+      "minutes": 20,
+      "parts": [
+        {
+          "id": "hoeren-1",
+          "title": "Hören Teil 1",
+          "goal": "Arbeitsabläufe, Probleme und Vorschläge verstehen",
+          "instructions": "Sie hören drei Gespräche am Arbeitsplatz. Zu jedem Gespräch gibt es zwei Aufgaben. Entscheiden Sie bei der ersten Aufgabe, ob die Aussage richtig oder falsch ist, und wählen Sie bei der zweiten Aufgabe die richtige Lösung a, b oder c. Sie hören jedes Gespräch einmal.",
+          "stimuli": [
+            {
+              "id": "g1",
+              "kind": "audio",
+              "title": "Gespräch 1",
+              "audio": "assets/audio/test-5/hoeren-1-g1.mp3",
+              "transcript": [
+                {
+                  "speaker": "Herr Brandt",
+                  "voice": "m",
+                  "text": "Frau Yıldız, haben Sie kurz Zeit? Im Wartezimmer sitzen schon wieder sechs Leute, und zwei davon haben beide einen Termin um zehn Uhr bei Doktor Sommerfeld."
+                },
+                {
+                  "speaker": "Frau Yıldız",
+                  "voice": "f",
+                  "text": "Schon wieder? Das ist in dieser Woche das dritte Mal. Wie kann das denn passieren?"
+                },
+                {
+                  "speaker": "Herr Brandt",
+                  "voice": "m",
+                  "text": "Ich glaube, es liegt an der Online-Buchung. Wenn wir am Telefon einen Termin eintragen, sieht das Programm im Internet ihn erst nach ein paar Minuten. In dieser Zeit kann jemand denselben Termin online buchen."
+                },
+                {
+                  "speaker": "Frau Yıldız",
+                  "voice": "f",
+                  "text": "Verstehe. Dann rufe ich heute Nachmittag die Softwarefirma an. Aber was machen wir bis dahin?"
+                },
+                {
+                  "speaker": "Herr Brandt",
+                  "voice": "m",
+                  "text": "Mein Vorschlag wäre, dass wir online vorübergehend nur Termine ab der nächsten Woche freigeben. Kurzfristige Termine vergeben wir dann ausschließlich am Telefon."
+                },
+                {
+                  "speaker": "Frau Yıldız",
+                  "voice": "f",
+                  "text": "Gute Idee, so machen wir das. Können Sie das im Programm einstellen?"
+                },
+                {
+                  "speaker": "Herr Brandt",
+                  "voice": "m",
+                  "text": "Ja, das habe ich schon einmal gemacht. Und was sage ich den beiden Patienten?"
+                },
+                {
+                  "speaker": "Frau Yıldız",
+                  "voice": "f",
+                  "text": "Fragen Sie bitte, wer von beiden etwas warten kann, und bieten Sie einen Kaffee an. Ich spreche inzwischen mit dem Doktor."
+                }
+              ]
+            },
+            {
+              "id": "g2",
+              "kind": "audio",
+              "title": "Gespräch 2",
+              "audio": "assets/audio/test-5/hoeren-1-g2.mp3",
+              "transcript": [
+                {
+                  "speaker": "Herr Diallo",
+                  "voice": "m",
+                  "text": "Frau Novak, das Hotel in Wien hat gerade geschrieben. Für die Reisegruppe vom Sportverein können sie statt zwanzig nur sechzehn Zimmer bestätigen."
+                },
+                {
+                  "speaker": "Frau Novak",
+                  "voice": "f",
+                  "text": "Oh nein. Und die Reise ist schon in drei Wochen. Haben sie einen Grund genannt?"
+                },
+                {
+                  "speaker": "Herr Diallo",
+                  "voice": "m",
+                  "text": "Wegen einer Messe ist das Haus an dem Wochenende fast ausgebucht. Sie bieten an, vier Personen in einem Partnerhotel unterzubringen, ungefähr zehn Minuten zu Fuß entfernt."
+                },
+                {
+                  "speaker": "Frau Novak",
+                  "voice": "f",
+                  "text": "Hm. Eine Gruppe möchte eigentlich zusammen wohnen. Haben Sie schon nach einem anderen Hotel für alle gesucht?"
+                },
+                {
+                  "speaker": "Herr Diallo",
+                  "voice": "m",
+                  "text": "Ja, aber in dieser Preisklasse ist nichts mehr frei. Alles andere wäre pro Nacht mindestens vierzig Euro teurer."
+                },
+                {
+                  "speaker": "Frau Novak",
+                  "voice": "f",
+                  "text": "Das können wir dem Verein nicht anbieten, der Preis ist ja schon vereinbart. Dann nehmen wir das Partnerhotel. Aber ich möchte, dass der Kunde das von uns erfährt und nicht erst an der Rezeption."
+                },
+                {
+                  "speaker": "Herr Diallo",
+                  "voice": "m",
+                  "text": "Soll ich Herrn Petersen eine E-Mail schreiben?"
+                },
+                {
+                  "speaker": "Frau Novak",
+                  "voice": "f",
+                  "text": "Nein, rufen Sie ihn lieber an, das ist persönlicher. Und fragen Sie beim Hotel nach, ob die vier Gäste trotzdem gemeinsam mit den anderen frühstücken können."
+                }
+              ]
+            },
+            {
+              "id": "g3",
+              "kind": "audio",
+              "title": "Gespräch 3",
+              "audio": "assets/audio/test-5/hoeren-1-g3.mp3",
+              "transcript": [
+                {
+                  "speaker": "Frau Abebe",
+                  "voice": "f",
+                  "text": "Herr Kowalczyk, gut, dass ich Sie erreiche. Aus der Gartenstraße acht haben sich drei Mieter beschwert, dass das Treppenhaus seit zwei Wochen nicht geputzt wurde."
+                },
+                {
+                  "speaker": "Herr Kowalczyk",
+                  "voice": "m",
+                  "text": "Das stimmt leider. Die Reinigungsfirma ist zuletzt am Monatsanfang gekommen. Ich habe dort zweimal angerufen, aber es geht immer nur der Anrufbeantworter an."
+                },
+                {
+                  "speaker": "Frau Abebe",
+                  "voice": "f",
+                  "text": "Das geht so nicht. Wir haben vereinbart, dass einmal pro Woche gereinigt wird. Ich schreibe der Firma heute noch und setze eine Frist."
+                },
+                {
+                  "speaker": "Herr Kowalczyk",
+                  "voice": "m",
+                  "text": "Und bis dahin? Vor allem der Eingang sieht bei dem Regen schlimm aus."
+                },
+                {
+                  "speaker": "Frau Abebe",
+                  "voice": "f",
+                  "text": "Könnten Sie morgen ausnahmsweise selbst einmal durchwischen? Ich weiß, das gehört eigentlich nicht zu Ihren Aufgaben."
+                },
+                {
+                  "speaker": "Herr Kowalczyk",
+                  "voice": "m",
+                  "text": "Morgen Vormittag bin ich wegen der Heizungswartung in der Schillerstraße. Aber am Nachmittag könnte ich das machen, wenn Sie mir die Stunden extra aufschreiben."
+                },
+                {
+                  "speaker": "Frau Abebe",
+                  "voice": "f",
+                  "text": "Natürlich, das rechnen wir als Überstunden ab. Vielen Dank! Und hängen Sie bitte einen Zettel in den Flur, damit die Mieter wissen, dass wir uns kümmern."
+                },
+                {
+                  "speaker": "Herr Kowalczyk",
+                  "voice": "m",
+                  "text": "Mache ich. Soll ich auch Fotos machen?"
+                },
+                {
+                  "speaker": "Frau Abebe",
+                  "voice": "f",
+                  "text": "Ja, sehr gut, schicken Sie sie mir bitte aufs Handy."
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "n": 22,
+              "type": "tf",
+              "stimulus": "g1",
+              "prompt": "In dieser Woche wurden schon mehrmals Termine doppelt vergeben.",
+              "answer": true,
+              "explanation": "Ms Yıldız says it is the third time this week."
+            },
+            {
+              "n": 23,
+              "type": "mc",
+              "stimulus": "g1",
+              "prompt": "Was schlägt Herr Brandt vor?",
+              "options": {
+                "a": "Die Online-Buchung ganz abzuschalten.",
+                "b": "Im Internet zunächst nur spätere Termine anzubieten.",
+                "c": "Sofort die Softwarefirma anzurufen."
+              },
+              "answer": "b",
+              "explanation": "He suggests releasing only appointments from next week online; calling the software company is Ms Yıldız's plan."
+            },
+            {
+              "n": 24,
+              "type": "tf",
+              "stimulus": "g2",
+              "prompt": "Das Reisebüro bucht die ganze Gruppe in ein anderes, teureres Hotel um.",
+              "answer": false,
+              "explanation": "Other hotels would be too expensive, so four guests stay in the partner hotel and the rest stay where they are."
+            },
+            {
+              "n": 25,
+              "type": "mc",
+              "stimulus": "g2",
+              "prompt": "Herr Diallo soll den Kunden",
+              "options": {
+                "a": "per E-Mail über die Änderung informieren.",
+                "b": "um einen höheren Preis bitten.",
+                "c": "telefonisch über die Änderung informieren."
+              },
+              "answer": "c",
+              "explanation": "Ms Novak tells him to phone Mr Petersen because it is more personal."
+            },
+            {
+              "n": 26,
+              "type": "tf",
+              "stimulus": "g3",
+              "prompt": "Herr Kowalczyk hat vergeblich versucht, die Reinigungsfirma zu erreichen.",
+              "answer": true,
+              "explanation": "He called twice but only got the answering machine."
+            },
+            {
+              "n": 27,
+              "type": "mc",
+              "stimulus": "g3",
+              "prompt": "Was macht Herr Kowalczyk morgen Nachmittag?",
+              "options": {
+                "a": "Er wischt das Treppenhaus selbst.",
+                "b": "Er wartet die Heizung in der Schillerstraße.",
+                "c": "Er schreibt der Reinigungsfirma."
+              },
+              "answer": "a",
+              "explanation": "He is at the heating maintenance in the morning and agrees to clean the stairwell in the afternoon."
+            }
+          ]
+        },
+        {
+          "id": "hoeren-2",
+          "title": "Hören Teil 2",
+          "goal": "Argumentationen nachvollziehen",
+          "instructions": "Sie hören in einer Radiosendung vier Personen, die ihre Meinung zum Thema „Pendeln und lange Arbeitswege“ sagen. Lesen Sie zuerst die Aussagen a–f. Welche Aussage passt zu welcher Person? Zwei Aussagen passen zu keiner Person. Sie hören jede Person einmal.",
+          "stimuli": [
+            {
+              "id": "s1",
+              "kind": "audio",
+              "title": "Sprecherin 1",
+              "audio": "assets/audio/test-5/hoeren-2-s1.mp3",
+              "transcript": [
+                {
+                  "speaker": "Sprecherin 1",
+                  "voice": "f",
+                  "text": "Ich fahre jeden Tag eine gute Stunde mit dem Zug zur Arbeit, pro Strecke. Viele bedauern mich deswegen, aber ehrlich gesagt genieße ich diese Zeit. Morgens lese ich meine E-Mails und plane den Tag, abends höre ich Musik oder lese ein Buch. Wenn ich zu Hause ankomme, habe ich die Arbeit schon hinter mir gelassen. Mit dem Auto wäre das unmöglich, da müsste ich mich ja die ganze Zeit auf den Verkehr konzentrieren."
+                }
+              ]
+            },
+            {
+              "id": "s2",
+              "kind": "audio",
+              "title": "Sprecher 2",
+              "audio": "assets/audio/test-5/hoeren-2-s2.mp3",
+              "transcript": [
+                {
+                  "speaker": "Sprecher 2",
+                  "voice": "m",
+                  "text": "Ich bin sechs Jahre lang täglich fast hundert Kilometer gependelt. Irgendwann war ich nur noch müde, hatte Rückenschmerzen und habe meine Kinder unter der Woche kaum gesehen. Letztes Jahr sind wir dann umgezogen, obwohl die Wohnung hier deutlich teurer ist. Jetzt bin ich in fünfzehn Minuten mit dem Fahrrad im Büro. Für mich steht fest: Keine Stelle der Welt ist es wert, dass man dafür jeden Tag stundenlang unterwegs ist."
+                }
+              ]
+            },
+            {
+              "id": "s3",
+              "kind": "audio",
+              "title": "Sprecherin 3",
+              "audio": "assets/audio/test-5/hoeren-2-s3.mp3",
+              "transcript": [
+                {
+                  "speaker": "Sprecherin 3",
+                  "voice": "f",
+                  "text": "Ich wohne auf dem Land und brauche mit dem Auto fünfzig Minuten bis zur Firma. Umziehen kommt für uns nicht infrage, wir haben hier ein Haus. Was mich ärgert: Meine Arbeit könnte ich zum großen Teil auch von zu Hause erledigen, aber mein Chef besteht darauf, dass alle fünf Tage im Büro sind. Zwei Tage Homeoffice pro Woche würden mir schon reichen. Ich finde, hier müssten die Firmen viel flexibler werden."
+                }
+              ]
+            },
+            {
+              "id": "s4",
+              "kind": "audio",
+              "title": "Sprecher 4",
+              "audio": "assets/audio/test-5/hoeren-2-s4.mp3",
+              "transcript": [
+                {
+                  "speaker": "Sprecher 4",
+                  "voice": "m",
+                  "text": "Eigentlich würde ich gern mit der Bahn zur Arbeit fahren, schon wegen der Umwelt. Ich habe es ein halbes Jahr lang versucht. Aber ständig fiel ein Zug aus, oder ich habe den Anschluss verpasst und kam zu spät zur Frühschicht. Das konnte ich mir auf Dauer nicht leisten. Jetzt sitze ich wieder im Auto und stehe zwar manchmal im Stau, aber ich weiß wenigstens ungefähr, wann ich ankomme. Solange die Verbindungen so unsicher sind, bleibt das so."
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "key": "a",
+              "text": "Für lange Arbeitswege sind Fahrgemeinschaften die beste Lösung."
+            },
+            {
+              "key": "b",
+              "text": "Bus und Bahn sind für den Weg zur Arbeit nicht verlässlich genug."
+            },
+            {
+              "key": "c",
+              "text": "Langes Pendeln geht auf Kosten von Gesundheit und Familie."
+            },
+            {
+              "key": "d",
+              "text": "Pendeln lohnt sich, weil man auf dem Land günstiger wohnt."
+            },
+            {
+              "key": "e",
+              "text": "Die Fahrzeit lässt sich sinnvoll nutzen."
+            },
+            {
+              "key": "f",
+              "text": "Arbeitgeber sollten Pendlern mehr Arbeit von zu Hause ermöglichen."
+            }
+          ],
+          "items": [
+            {
+              "n": 28,
+              "type": "match",
+              "stimulus": "s1",
+              "prompt": "Sprecherin 1",
+              "answer": "e",
+              "explanation": "She uses the train ride to read e-mails, plan her day and relax."
+            },
+            {
+              "n": 29,
+              "type": "match",
+              "stimulus": "s2",
+              "prompt": "Sprecher 2",
+              "answer": "c",
+              "explanation": "He was tired, had back pain and hardly saw his children, so he moved."
+            },
+            {
+              "n": 30,
+              "type": "match",
+              "stimulus": "s3",
+              "prompt": "Sprecherin 3",
+              "answer": "f",
+              "explanation": "She wants two home-office days and says companies should be more flexible."
+            },
+            {
+              "n": 31,
+              "type": "match",
+              "stimulus": "s4",
+              "prompt": "Sprecher 4",
+              "answer": "b",
+              "explanation": "Trains were cancelled and connections missed, so he drives again."
+            }
+          ]
+        },
+        {
+          "id": "hoeren-3",
+          "title": "Hören Teil 3",
+          "goal": "Betriebsbezogene Informationen nachvollziehen",
+          "instructions": "Sie arbeiten in einer Druckerei und hören auf einer Betriebsversammlung einen Vortrag der Geschäftsführerin. Lesen Sie zuerst die Aufgaben 32–35. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Sie hören den Vortrag einmal.",
+          "stimuli": [
+            {
+              "id": "v1",
+              "kind": "audio",
+              "title": "Vortrag",
+              "audio": "assets/audio/test-5/hoeren-3-v1.mp3",
+              "transcript": [
+                {
+                  "speaker": "Frau Reinders",
+                  "voice": "f",
+                  "text": "Liebe Kolleginnen und Kollegen, schön, dass Sie alle gekommen sind. Ich möchte Sie heute über das vergangene Jahr und über unsere Pläne für die nächsten Monate informieren. Zuerst die gute Nachricht: Wir haben in diesem Jahr mehr Aufträge bekommen als im letzten. Das liegt allerdings nicht an den Prospekten und Flyern, dort ist die Nachfrage weiter zurückgegangen. Gewachsen sind wir vor allem bei Etiketten und Verpackungen für Lebensmittelhersteller aus der Region. Diese Kunden bestellen oft kleine Mengen, brauchen sie aber sehr schnell. Genau dafür sind unsere alten Maschinen nicht gemacht. Deshalb haben wir uns entschieden, eine neue Digitaldruckmaschine zu kaufen. Sie wird in der zweiten Februarwoche geliefert und in Halle zwei aufgebaut. In dieser Woche bleibt Halle zwei komplett geschlossen. Die Aufträge werden dann in Halle eins gedruckt, und damit wir das schaffen, richten wir dort für diese fünf Tage eine zusätzliche Spätschicht ein. Wer bereit ist, in der Spätschicht zu arbeiten, meldet sich bitte bei seiner Schichtleitung. Für diese Woche zahlen wir einen Zuschlag. Natürlich muss niemand die neue Maschine ohne Vorbereitung bedienen. Ein Techniker des Herstellers kommt im März zu uns ins Haus und schult alle Druckerinnen und Drucker in kleinen Gruppen, jeweils zwei Tage lang. Die Schulung findet während der Arbeitszeit statt. Sie müssen sich nicht anmelden. Die Gruppen teilt Herr Yamamoto aus der Produktionsplanung ein, und er hängt den Plan Ende Februar am Schwarzen Brett aus. Wenn Sie an Ihrem Termin nicht können, sprechen Sie ihn bitte direkt an. Einige von Ihnen haben mich gefragt, ob durch die neue Technik Arbeitsplätze wegfallen. Ich kann Sie beruhigen: Das ist nicht geplant. Im Gegenteil, für die Weiterverarbeitung der Verpackungen suchen wir zwei zusätzliche Fachkräfte. Wenn Sie jemanden kennen, der zu uns passt, sagen Sie es gern in der Personalabteilung. Für jede erfolgreiche Empfehlung gibt es eine Prämie. Zum Schluss noch ein Hinweis: Am Liefertag steht ein großer Kran auf unserem Hof. Der Parkplatz hinter dem Gebäude ist an diesem Tag gesperrt. Bitte parken Sie auf dem Parkplatz des Möbelhauses gegenüber, das haben wir mit der Geschäftsleitung dort abgesprochen. Vielen Dank für Ihre Aufmerksamkeit. Jetzt beantworte ich gern Ihre Fragen."
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "n": 32,
+              "type": "mc",
+              "stimulus": "v1",
+              "prompt": "Die Druckerei hat in diesem Jahr",
+              "options": {
+                "a": "mehr Prospekte und Flyer gedruckt als früher.",
+                "b": "vor allem bei Verpackungen und Etiketten zugelegt.",
+                "c": "weniger Aufträge erhalten als im Vorjahr."
+              },
+              "answer": "b",
+              "explanation": "Growth came mainly from labels and packaging; demand for brochures and flyers fell."
+            },
+            {
+              "n": 33,
+              "type": "mc",
+              "stimulus": "v1",
+              "prompt": "In der Woche, in der die neue Maschine aufgebaut wird,",
+              "options": {
+                "a": "gibt es in Halle eins eine weitere Schicht.",
+                "b": "müssen alle Beschäftigten in der Spätschicht arbeiten.",
+                "c": "ruht die gesamte Produktion."
+              },
+              "answer": "a",
+              "explanation": "Hall two is closed, and hall one gets an additional late shift for volunteers."
+            },
+            {
+              "n": 34,
+              "type": "mc",
+              "stimulus": "v1",
+              "prompt": "Für die Schulung an der neuen Maschine",
+              "options": {
+                "a": "melden sich die Beschäftigten bei der Schichtleitung an.",
+                "b": "fahren die Beschäftigten zum Hersteller.",
+                "c": "werden die Beschäftigten in Gruppen eingeteilt."
+              },
+              "answer": "c",
+              "explanation": "No registration is needed; Mr Yamamoto assigns the groups and the technician comes to the company."
+            },
+            {
+              "n": 35,
+              "type": "mc",
+              "stimulus": "v1",
+              "prompt": "Die Geschäftsführerin sagt, dass",
+              "options": {
+                "a": "die Firma weiteres Personal einstellen will.",
+                "b": "wegen der neuen Technik Stellen abgebaut werden.",
+                "c": "der Parkplatz hinter dem Gebäude im Februar eine Woche lang gesperrt ist."
+              },
+              "answer": "a",
+              "explanation": "No jobs will be cut; two additional skilled workers are wanted. The car park is closed only on delivery day."
+            }
+          ]
+        },
+        {
+          "id": "hoeren-4",
+          "title": "Hören Teil 4",
+          "goal": "Anliegen und Bitten erfassen",
+          "instructions": "Sie hören fünf Nachrichten auf dem Anrufbeantworter. Zu jeder Nachricht gibt es eine Aufgabe. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Sie hören jede Nachricht einmal.",
+          "stimuli": [
+            {
+              "id": "a1",
+              "kind": "audio",
+              "title": "Nachricht 1",
+              "audio": "assets/audio/test-5/hoeren-4-a1.mp3",
+              "transcript": [
+                {
+                  "speaker": "Frau Halvorsen",
+                  "voice": "f",
+                  "text": "Guten Tag, hier spricht Ingrid Halvorsen. Ich habe morgen um neun Uhr einen Termin zur Zahnreinigung bei Ihnen. Leider muss ich kurzfristig auf eine Dienstreise und kann nicht kommen. Ich möchte den Termin aber nicht einfach absagen, sondern verschieben, am liebsten auf einen Nachmittag in der übernächsten Woche. Bitte rufen Sie mich zurück und schlagen Sie mir einen neuen Termin vor. Sie erreichen mich unter 0151 44 01 78. Vielen Dank."
+                }
+              ]
+            },
+            {
+              "id": "a2",
+              "kind": "audio",
+              "title": "Nachricht 2",
+              "audio": "assets/audio/test-5/hoeren-4-a2.mp3",
+              "transcript": [
+                {
+                  "speaker": "Herr Karimi",
+                  "voice": "m",
+                  "text": "Guten Tag Frau Sandberg, Rashid Karimi von der Firma Karimi Sanitär. Es geht um den Wasserschaden in der Wohnung von Familie Thiel. Wir wollten heute um vierzehn Uhr mit der Reparatur anfangen, aber bei der Familie macht niemand auf, und ans Telefon geht auch keiner. Haben Sie vielleicht eine andere Nummer oder einen Schlüssel für die Wohnung? Ich warte noch eine halbe Stunde vor dem Haus. Bitte melden Sie sich schnell."
+                }
+              ]
+            },
+            {
+              "id": "a3",
+              "kind": "audio",
+              "title": "Nachricht 3",
+              "audio": "assets/audio/test-5/hoeren-4-a3.mp3",
+              "transcript": [
+                {
+                  "speaker": "Mei Lin",
+                  "voice": "f",
+                  "text": "Hallo Jonas, hier ist Mei Lin. Ich stehe gerade im Stau und schaffe es nicht bis zehn Uhr ins Büro. Um zehn kommt aber Frau Okoye, um ihre Reiseunterlagen für Kanada abzuholen. Die Mappe liegt fertig in meiner obersten Schreibtischschublade. Könntest du sie ihr bitte geben und sie die Empfangsbestätigung unterschreiben lassen? Erklären musst du nichts, wir haben schon alles besprochen. Danke dir, ich bin gegen halb elf da."
+                }
+              ]
+            },
+            {
+              "id": "a4",
+              "kind": "audio",
+              "title": "Nachricht 4",
+              "audio": "assets/audio/test-5/hoeren-4-a4.mp3",
+              "transcript": [
+                {
+                  "speaker": "Herr Albrecht",
+                  "voice": "m",
+                  "text": "Guten Tag, Stefan Albrecht von der Druckerei Farbwerk Nord. Ich rufe wegen Ihrer Visitenkarten an. Beim Prüfen der Datei ist uns aufgefallen, dass die Telefonnummer auf der Vorderseite eine Ziffer weniger hat als auf der Rückseite. Wir haben den Druck deshalb gestoppt. Bitte schicken Sie uns bis morgen Mittag eine korrigierte Datei oder teilen Sie uns die richtige Nummer mit. Dann können wir trotzdem wie geplant am Freitag liefern."
+                }
+              ]
+            },
+            {
+              "id": "a5",
+              "kind": "audio",
+              "title": "Nachricht 5",
+              "audio": "assets/audio/test-5/hoeren-4-a5.mp3",
+              "transcript": [
+                {
+                  "speaker": "Frau Haddad",
+                  "voice": "f",
+                  "text": "Guten Tag Herr Petrov, hier ist Samira Haddad aus der Zahnarztpraxis Doktor Sommerfeld. Sie haben uns gestern den neuen Drucker am Empfang angeschlossen. Der druckt einwandfrei, vielen Dank. Allerdings haben wir heute gemerkt, dass wir vom Computer im Behandlungsraum drei nicht drucken können, dort erscheint der Drucker gar nicht. Könnten Sie das noch einrichten? Es reicht, wenn Sie irgendwann in dieser Woche vorbeikommen, es ist nicht eilig. Bitte sagen Sie vorher kurz Bescheid."
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "n": 36,
+              "type": "mc",
+              "stimulus": "a1",
+              "prompt": "Frau Halvorsen",
+              "options": {
+                "a": "sagt ihren Termin ersatzlos ab.",
+                "b": "möchte einen späteren Termin bekommen.",
+                "c": "kann morgen erst am Nachmittag kommen."
+              },
+              "answer": "b",
+              "explanation": "She does not want to cancel but to move the appointment to an afternoon in the week after next."
+            },
+            {
+              "n": 37,
+              "type": "mc",
+              "stimulus": "a2",
+              "prompt": "Herr Karimi",
+              "options": {
+                "a": "braucht Hilfe, weil er nicht in die Wohnung kommt.",
+                "b": "kann erst später anfangen, weil Material fehlt.",
+                "c": "möchte die Reparatur auf morgen verschieben."
+              },
+              "answer": "a",
+              "explanation": "Nobody opens the door or answers the phone, so he asks for another number or a key."
+            },
+            {
+              "n": 38,
+              "type": "mc",
+              "stimulus": "a3",
+              "prompt": "Mei Lin",
+              "options": {
+                "a": "bittet Jonas, einer Kundin die Reise zu erklären.",
+                "b": "möchte, dass die Kundin später wiederkommt.",
+                "c": "bittet Jonas, einer Kundin Unterlagen zu übergeben."
+              },
+              "answer": "c",
+              "explanation": "Jonas should hand over the folder and get a signature; nothing needs to be explained."
+            },
+            {
+              "n": 39,
+              "type": "mc",
+              "stimulus": "a4",
+              "prompt": "Herr Albrecht",
+              "options": {
+                "a": "kündigt an, dass die Lieferung später kommt.",
+                "b": "braucht vom Kunden eine Korrektur.",
+                "c": "teilt mit, dass die Visitenkarten fertig sind."
+              },
+              "answer": "b",
+              "explanation": "The phone numbers on the two sides differ, so he needs a corrected file or the right number; delivery can still be on Friday."
+            },
+            {
+              "n": 40,
+              "type": "mc",
+              "stimulus": "a5",
+              "prompt": "Frau Haddad",
+              "options": {
+                "a": "möchte, dass der Drucker auch für einen weiteren Computer eingerichtet wird.",
+                "b": "reklamiert, dass der neue Drucker defekt ist.",
+                "c": "braucht noch heute einen Techniker."
+              },
+              "answer": "a",
+              "explanation": "The printer works, but it cannot be used from the computer in treatment room three; it is not urgent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hoeren-schreiben",
+      "title": "Hören und Schreiben",
+      "minutes": 5,
+      "parts": [
+        {
+          "id": "hoeren-schreiben",
+          "title": "Hören und Schreiben",
+          "goal": "Kundenanfragen entgegennehmen und dokumentieren",
+          "instructions": "Sie arbeiten in einer Druckerei und hören eine Nachricht auf dem Anrufbeantworter. Lösen Sie die Aufgabe 41 und notieren Sie die wichtigsten Informationen für Ihre Kollegin im Vertrieb (42–45). Sie hören die Nachricht einmal.",
+          "stimuli": [
+            {
+              "id": "k1",
+              "kind": "audio",
+              "title": "Nachricht einer Kundin",
+              "audio": "assets/audio/test-5/hoeren-schreiben-k1.mp3",
+              "transcript": [
+                {
+                  "speaker": "Frau Greco",
+                  "voice": "f",
+                  "text": "Guten Tag, mein Name ist Valentina Greco, ich buchstabiere den Nachnamen: G-R-E-C-O. Ich rufe für die Zahnarztpraxis Doktor Amsel an. Wir eröffnen im Mai eine zweite Praxis und brauchen dafür neue Drucksachen. Konkret geht es um zweitausend Terminkärtchen und fünfhundert Briefbögen, beides mit unserem neuen Logo. Die Druckdaten können wir Ihnen als fertige Datei liefern. Wichtig ist, dass alles spätestens am zwanzigsten April bei uns ist. Könnten Sie mir bitte bis Freitag ein schriftliches Angebot mit Preisen und Lieferzeit schicken? Rufen Sie mich vorher bitte kurz zurück, dann gebe ich Ihnen unsere E-Mail-Adresse. Sie erreichen mich unter 030 55 01 46, am besten vormittags bis zwölf Uhr. Vielen Dank und auf Wiederhören."
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "n": 41,
+              "type": "mc",
+              "stimulus": "k1",
+              "prompt": "Grund für den Anruf",
+              "options": {
+                "a": "Angebot",
+                "b": "Bestellung/Buchung",
+                "c": "Beschwerde"
+              },
+              "answer": "a",
+              "explanation": "The caller asks for a written quote with prices and delivery time; she has not ordered yet."
+            }
+          ],
+          "notes": [
+            {
+              "n": 42,
+              "label": "Name / Firma",
+              "expected": "Valentina Greco, Zahnarztpraxis Dr. Amsel"
+            },
+            {
+              "n": 43,
+              "label": "Telefon",
+              "expected": "030 55 01 46 (vormittags bis 12 Uhr)"
+            },
+            {
+              "n": 44,
+              "label": "Weitere Informationen",
+              "expected": "2000 Terminkärtchen; 500 Briefbögen; beides mit neuem Logo; Druckdaten kommen als fertige Datei; Lieferung spätestens am 20. April"
+            },
+            {
+              "n": 45,
+              "label": "Zu erledigen",
+              "expected": "Kundin zurückrufen (E-Mail-Adresse erfragen) und bis Freitag schriftliches Angebot mit Preisen und Lieferzeit schicken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sprachbausteine-schreiben",
+      "title": "Sprachbausteine und Schreiben",
+      "minutes": 35,
+      "parts": [
+        {
+          "id": "sprachbausteine-1",
+          "title": "Sprachbausteine Teil 1",
+          "goal": "Rückfragen zu Bewerbungen stellen",
+          "instructions": "Lesen Sie die E-Mail und entscheiden Sie, welches Wort a–j in die Lücken 46–51 passt. Sie können jedes Wort nur einmal verwenden. Vier Wörter passen in keine Lücke.",
+          "options": [
+            {
+              "key": "a",
+              "text": "ABER"
+            },
+            {
+              "key": "b",
+              "text": "DAMALS"
+            },
+            {
+              "key": "c",
+              "text": "DESHALB"
+            },
+            {
+              "key": "d",
+              "text": "FALLS"
+            },
+            {
+              "key": "e",
+              "text": "SOWOHL"
+            },
+            {
+              "key": "f",
+              "text": "ÜBER"
+            },
+            {
+              "key": "g",
+              "text": "UM"
+            },
+            {
+              "key": "h",
+              "text": "WANN"
+            },
+            {
+              "key": "i",
+              "text": "WEDER"
+            },
+            {
+              "key": "j",
+              "text": "WOMIT"
+            }
+          ],
+          "gapText": "Betreff: Meine Bewerbung als Immobilienkaufmann vom 3. September\n\nSehr geehrte Frau Engelhardt,\n\nam 3. September habe ich mich bei Ihnen [[46]] die Stelle als Immobilienkaufmann in der Mieterbetreuung beworben. Kurz darauf habe ich eine automatische Eingangsbestätigung erhalten, [[47]] seitdem habe ich leider nichts mehr von Ihnen gehört.\n\nDa ich mich nach wie vor sehr für die Stelle interessiere, möchte ich nachfragen, [[48]] Sie voraussichtlich eine Entscheidung treffen werden. Mir liegt inzwischen ein weiteres Angebot vor, auf das ich bis Ende des Monats antworten muss. [[49]] wäre ich Ihnen dankbar, wenn Sie mir kurz den Stand des Verfahrens mitteilen könnten.\n\n[[50]] Sie noch Unterlagen benötigen, zum Beispiel weitere Arbeitszeugnisse, reiche ich diese gern nach. Für ein Gespräch stehe ich Ihnen [[51]] telefonisch als auch persönlich jederzeit zur Verfügung.\n\nVielen Dank im Voraus für Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nMateo Fernández",
+          "items": [
+            {
+              "n": 46,
+              "type": "match",
+              "prompt": "Lücke 46",
+              "answer": "g",
+              "explanation": "The verb is 'sich um eine Stelle bewerben'."
+            },
+            {
+              "n": 47,
+              "type": "match",
+              "prompt": "Lücke 47",
+              "answer": "a",
+              "explanation": "A contrast is needed, and the normal word order after the gap requires the conjunction 'aber'."
+            },
+            {
+              "n": 48,
+              "type": "match",
+              "prompt": "Lücke 48",
+              "answer": "h",
+              "explanation": "An indirect question about the time of the decision needs 'wann'."
+            },
+            {
+              "n": 49,
+              "type": "match",
+              "prompt": "Lücke 49",
+              "answer": "c",
+              "explanation": "The request follows from the other offer, so the adverb 'deshalb' fits; the verb comes directly after it."
+            },
+            {
+              "n": 50,
+              "type": "match",
+              "prompt": "Lücke 50",
+              "answer": "d",
+              "explanation": "A condition with the verb at the end of the clause needs 'falls'."
+            },
+            {
+              "n": 51,
+              "type": "match",
+              "prompt": "Lücke 51",
+              "answer": "e",
+              "explanation": "The two-part connector is 'sowohl … als auch'."
+            }
+          ]
+        },
+        {
+          "id": "sprachbausteine-2",
+          "title": "Sprachbausteine Teil 2",
+          "goal": "Auf Anfragen reagieren und Angebote machen",
+          "instructions": "Lesen Sie die E-Mail und entscheiden Sie, welche Lösung a, b oder c in die Lücken 52–57 passt.",
+          "gapText": "Betreff: Ihr Betriebsausflug nach Hamburg – unser Angebot\n\nSehr geehrter Herr Lindgren,\n\nvielen Dank für Ihre Anfrage vom 12. Mai. Gern [[52]] ein Angebot für den Betriebsausflug Ihrer Firma nach Hamburg.\n\nFür den 19. September können wir Ihnen Folgendes anbieten: Fahrt im modernen Reisebus ab Ihrem Firmengelände, eine zweistündige Hafenrundfahrt sowie ein Mittagessen in einem Restaurant an der Elbe. Der Preis [[53]] 89 Euro pro Person, wenn mindestens 30 Personen teilnehmen. Getränke beim Mittagessen [[54]] nicht enthalten.\n\nBitte beachten Sie, dass wir die Plätze auf dem Schiff nur bis zum 30. Juni für Sie [[55]]. Wir bitten Sie daher, uns Ihre Entscheidung [[56]] mitzuteilen. Sollte sich die Zahl der Teilnehmenden danach noch ändern, ist das bis vier Wochen vor der Reise ohne zusätzliche Kosten möglich.\n\nWenn Sie Fragen haben oder Änderungen wünschen, [[57]] jederzeit gern zur Verfügung.\n\nMit freundlichen Grüßen\nKatarzyna Nowicka\nReisebüro Sonnenweg",
+          "items": [
+            {
+              "n": 52,
+              "type": "mc",
+              "prompt": "Lücke 52",
+              "options": {
+                "a": "unterbreiten wir Ihnen",
+                "b": "bitten wir Sie",
+                "c": "erhalten wir von Ihnen"
+              },
+              "answer": "a",
+              "explanation": "'Ein Angebot unterbreiten' is the fixed expression for making an offer; the agency is the one offering."
+            },
+            {
+              "n": 53,
+              "type": "mc",
+              "prompt": "Lücke 53",
+              "options": {
+                "a": "beläuft sich",
+                "b": "beträgt dann",
+                "c": "kostet etwa"
+              },
+              "answer": "b",
+              "explanation": "'Der Preis beträgt …'; 'beläuft sich' would need 'auf', and a price does not 'cost'."
+            },
+            {
+              "n": 54,
+              "type": "mc",
+              "prompt": "Lücke 54",
+              "options": {
+                "a": "sind im Preis",
+                "b": "ist im Preis",
+                "c": "sind zum Preis"
+              },
+              "answer": "a",
+              "explanation": "The plural subject 'Getränke' needs 'sind', and the expression is 'im Preis enthalten'."
+            },
+            {
+              "n": 55,
+              "type": "mc",
+              "prompt": "Lücke 55",
+              "options": {
+                "a": "freigehalten werden",
+                "b": "frei zu halten",
+                "c": "freihalten können"
+              },
+              "answer": "c",
+              "explanation": "The dass-clause with the subject 'wir' needs an active verb form at the end: 'freihalten können'."
+            },
+            {
+              "n": 56,
+              "type": "mc",
+              "prompt": "Lücke 56",
+              "options": {
+                "a": "seit diesem Termin",
+                "b": "vor Kurzem",
+                "c": "bis dahin"
+              },
+              "answer": "c",
+              "explanation": "The decision is needed by 30 June, the date just mentioned: 'bis dahin'."
+            },
+            {
+              "n": 57,
+              "type": "mc",
+              "prompt": "Lücke 57",
+              "options": {
+                "a": "wir stehen Ihnen",
+                "b": "stehen wir Ihnen",
+                "c": "stehen Sie uns"
+              },
+              "answer": "b",
+              "explanation": "After the wenn-clause the verb comes first in the main clause: 'stehen wir Ihnen … zur Verfügung'."
+            }
+          ]
+        },
+        {
+          "id": "schreiben",
+          "title": "Schreiben",
+          "goal": "Meinungen begründen und durch Argumente stützen",
+          "instructions": "Im Intranet Ihrer Firma wird im Mitarbeiterforum über zwei Vorschläge diskutiert. Wählen Sie ein Thema aus und schreiben Sie einen Forumsbeitrag. Sie haben für diesen Teil etwa 20 Minuten Zeit.",
+          "writing": {
+            "n": 58,
+            "task": "Wählen Sie Thema A oder Thema B.\n\nThema A – Hunde im Büro erlauben: Die Geschäftsleitung überlegt, ob Beschäftigte künftig ihren Hund mit ins Büro bringen dürfen. Einige im Team freuen sich darüber, andere haben Bedenken.\n\nThema B – Kostenloses Mittagessen in der Kantine statt Weihnachtsgeld: Die Geschäftsleitung schlägt vor, das Weihnachtsgeld abzuschaffen und dafür allen Beschäftigten an jedem Arbeitstag ein kostenloses Mittagessen in der Kantine anzubieten. Die Belegschaft soll dazu ihre Meinung sagen.\n\nSchreiben Sie einen Beitrag für das Forum. Äußern Sie Ihre Meinung, begründen Sie sie und nennen Sie Beispiele. Achten Sie auf eine klare Gliederung mit Einleitung, Hauptteil und Schluss.",
+            "points": [
+              "die eigene Meinung zum gewählten Thema deutlich machen",
+              "die Meinung mit mindestens zwei Argumenten begründen",
+              "Beispiele oder eigene Erfahrungen nennen",
+              "den Text gliedern (Einleitung, Hauptteil, Schluss)"
+            ],
+            "wordHint": "ca. 150–200 Wörter",
+            "modelAnswer": "Hunde im Büro – nur mit klaren Regeln\n\nLiebe Kolleginnen und Kollegen,\n\ndie Geschäftsleitung überlegt, Hunde im Büro zu erlauben. Ich finde diesen Vorschlag grundsätzlich gut, allerdings nur unter bestimmten Bedingungen.\n\nFür die Idee spricht, dass Hunde oft für eine entspannte Stimmung sorgen. In meiner letzten Firma brachte eine Kollegin ihren Hund mit, und in den Pausen kamen dadurch Leute aus verschiedenen Abteilungen miteinander ins Gespräch. Außerdem müssen Hundebesitzer mittags nicht mehr nach Hause hetzen und können sich besser auf ihre Arbeit konzentrieren.\n\nAuf der anderen Seite dürfen wir nicht vergessen, dass manche Menschen eine Allergie oder einfach Angst vor Hunden haben. Auch Bellen während eines Telefonats mit Kunden wäre ein Problem. Deshalb darf niemand gezwungen werden, mit einem Hund in einem Raum zu arbeiten.\n\nMein Vorschlag wäre daher eine Probezeit von drei Monaten mit festen Regeln: Alle im Raum müssen einverstanden sein, die Küche und die Besprechungsräume bleiben hundefrei, und pro Büro ist nur ein Hund erlaubt. Danach könnten wir gemeinsam entscheiden, ob es dabei bleibt.\n\nWas meint ihr dazu?\n\nViele Grüße\n(Ihr Name)",
+            "criteria": [
+              "Is your own opinion clear from the beginning to the end of the text?",
+              "Did you give at least two reasons and support them with examples or experience?",
+              "Did you mention the other side or a possible objection?",
+              "Is the text structured (introduction, main part, conclusion) and linked with connectors such as 'außerdem', 'allerdings', 'deshalb'?",
+              "Is the tone suitable for a company forum, and is the text about 150–200 words long?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sprechen",
+      "title": "Sprechen",
+      "minutes": 16,
+      "parts": [
+        {
+          "id": "sprechen-1",
+          "title": "Sprechen Teil 1",
+          "goal": "Über ein Thema sprechen",
+          "instructions": "Dieser Teil besteht aus drei Abschnitten. Sprechen Sie zuerst etwa zwei Minuten zusammenhängend über ein Thema und reagieren Sie danach auf Fragen. Sie haben keine Vorbereitungszeit.",
+          "speaking": {
+            "task": "Teil 1A: Wählen Sie eines der beiden Themen aus und sprechen Sie etwa zwei Minuten darüber. Beschreiben Sie, nennen Sie Beispiele und begründen Sie Ihre Aussagen.\n\nTeil 1B: Im Anschluss stellt Ihnen die Prüferin oder der Prüfer Fragen zu Ihrem Thema. Antworten Sie ausführlich.\n\nTeil 1C: Danach spricht Ihre Partnerin oder Ihr Partner über ein Thema. Hören Sie gut zu: Sie sollen anschließend einen Punkt aus dem Beitrag mit eigenen Worten erklären oder kommentieren.",
+            "prompts": [
+              "Thema 1: Beschreiben Sie einen Arbeitgeber, bei dem Sie gearbeitet haben oder bei dem Sie gern arbeiten würden.",
+              "Thema 2: Beschreiben Sie die Ereignisse und Erfahrungen, die Ihre Berufswahl beeinflusst haben.",
+              "Mögliche Anschlussfrage: Was macht für Sie einen guten Arbeitgeber aus?",
+              "Mögliche Anschlussfrage: Würden Sie lieber in einem kleinen Betrieb oder in einem großen Unternehmen arbeiten? Warum?",
+              "Mögliche Anschlussfrage: Was würden Sie an Ihrem früheren Arbeitsplatz verändern, wenn Sie könnten?",
+              "Mögliche Anschlussfrage: Wer oder was hat Sie bei Ihrer Berufswahl am meisten beeinflusst?"
+            ],
+            "phrases": [
+              "Ich möchte über … sprechen.",
+              "Zuerst möchte ich kurz beschreiben, …",
+              "Besonders gut hat mir gefallen, dass …",
+              "Ein Beispiel dafür ist …",
+              "Ein Nachteil war allerdings, dass …",
+              "Im Vergleich zu … finde ich …",
+              "Zusammenfassend kann ich sagen, dass …",
+              "Sie haben erwähnt, dass … Das fand ich interessant, weil …"
+            ],
+            "modelAnswer": "Ich möchte über einen Arbeitgeber sprechen, bei dem ich drei Jahre lang gearbeitet habe: eine kleine Druckerei in meiner Heimatstadt. Der Betrieb hatte ungefähr zwanzig Beschäftigte und stellte vor allem Prospekte, Plakate und Verpackungen für Firmen aus der Region her.\n\nIch habe dort in der Auftragsannahme gearbeitet. Das heißt, ich habe Kundinnen und Kunden beraten, Angebote geschrieben und Liefertermine mit der Produktion abgestimmt.\n\nBesonders gut hat mir das Arbeitsklima gefallen. Weil die Firma so klein war, kannte jeder jeden, und die Chefin hatte immer ein offenes Ohr für uns. Wenn jemand einen Fehler gemacht hat, wurde nicht geschimpft, sondern gemeinsam nach einer Lösung gesucht. Außerdem durfte ich schon nach wenigen Monaten eigene Kunden betreuen. Dadurch habe ich gelernt, selbstständig zu arbeiten und Verantwortung zu übernehmen.\n\nNatürlich gab es auch Nachteile. Vor Weihnachten oder vor großen Messen mussten wir oft Überstunden machen, und das Gehalt war niedriger als in größeren Unternehmen. Auch Möglichkeiten zur Weiterbildung gab es kaum.\n\nTrotzdem denke ich gern an diese Zeit zurück. Ich habe dort gemerkt, wie wichtig mir ein gutes Team und abwechslungsreiche Aufgaben sind. Wenn ich mich heute bei einer Firma bewerbe, achte ich deshalb nicht nur auf das Gehalt, sondern auch darauf, wie die Menschen dort miteinander umgehen.",
+            "criteria": [
+              "Did you speak for about two minutes without long pauses?",
+              "Did your talk have a clear structure (introduction, description, evaluation, conclusion)?",
+              "Did you give concrete examples and reasons, not just a list of facts?",
+              "Did you use connectors such as 'außerdem', 'trotzdem', 'deshalb' to link your sentences?",
+              "Could you answer follow-up questions in full sentences and react to your partner's talk?"
+            ]
+          }
+        },
+        {
+          "id": "sprechen-2",
+          "title": "Sprechen Teil 2",
+          "goal": "Mit Kolleginnen und Kollegen sprechen",
+          "instructions": "Sie treffen eine Kollegin oder einen Kollegen in der Kaffeeküche und unterhalten sich etwa drei Minuten lang. Sie haben keine Vorbereitungszeit.",
+          "speaking": {
+            "task": "Führen Sie mit Ihrer Partnerin oder Ihrem Partner ein lockeres Gespräch unter Kollegen. Beginnen Sie mit einem der beiden Gesprächsanlässe. Stellen Sie Fragen, erzählen Sie von sich und gehen Sie auf das ein, was Ihre Partnerin oder Ihr Partner sagt. Sie duzen sich.",
+            "prompts": [
+              "Na, wie war dein Wochenende? Hast du etwas Schönes unternommen?",
+              "Hast du eigentlich schon Pläne für deinen nächsten Urlaub?"
+            ],
+            "phrases": [
+              "Na, wie geht's dir heute?",
+              "Echt? Erzähl mal!",
+              "Das klingt ja toll.",
+              "Und wie war das bei dir?",
+              "Da fällt mir ein: …",
+              "Das kenne ich, mir geht es genauso.",
+              "So, ich muss leider weiter. Bis später!"
+            ],
+            "modelAnswer": "A: Hallo Carmen, na, wie war dein Wochenende?\nB: Hallo Deniz! Sehr schön, danke. Wir waren am Samstag auf dem Flohmarkt am Stadtpark. Kennst du den?\nA: Nein, da war ich noch nie. Lohnt sich das?\nB: Auf jeden Fall. Ich habe eine alte Kaffeemühle gefunden, für nur acht Euro. Und du, was hast du gemacht?\nA: Eigentlich wollte ich wandern gehen, aber bei dem Regen bin ich zu Hause geblieben und habe endlich mal wieder gekocht.\nB: Oh, was gab es denn?\nA: Eine Linsensuppe nach dem Rezept meiner Großmutter. Die hat leider vier Stunden gedauert.\nB: Das klingt aber lecker. Bringst du mal eine Portion mit?\nA: Gern, vielleicht nächste Woche. Sag mal, hast du eigentlich schon Pläne für deinen Urlaub?\nB: Ja, wir fahren im August zwei Wochen an die Ostsee. Die Kinder freuen sich schon riesig. Und du?\nA: Ich habe noch nichts gebucht. Wahrscheinlich besuche ich im Herbst meine Schwester in Izmir.\nB: Schön! Im Herbst ist es dort bestimmt angenehmer als im Sommer.\nA: Genau, im Juli ist es mir dort zu heiß. So, ich muss jetzt leider weiter, gleich fängt die Besprechung an.\nB: Alles klar. Dann bis später in der Mittagspause!",
+            "criteria": [
+              "Did you keep the conversation going for about three minutes?",
+              "Did you ask questions and react to your partner's answers instead of only talking about yourself?",
+              "Did you use the informal du form and a friendly, relaxed tone throughout?",
+              "Did you open and close the conversation in a natural way?"
+            ]
+          }
+        },
+        {
+          "id": "sprechen-3",
+          "title": "Sprechen Teil 3",
+          "goal": "Lösungswege diskutieren",
+          "instructions": "Sie sollen gemeinsam mit Ihrer Partnerin oder Ihrem Partner ein Problem am Arbeitsplatz lösen. Sprechen Sie etwa vier Minuten. Sie haben keine Vorbereitungszeit.",
+          "speaking": {
+            "task": "Heute um 11 Uhr findet in Ihrer Firma ein wichtiger Kundentermin statt. Ihre Kollegin, die das Gespräch leiten sollte, hat sich am Morgen krankgemeldet. Der Kunde ist bereits unterwegs. Überlegen Sie gemeinsam mit Ihrer Kollegin oder Ihrem Kollegen, was Sie tun können. Machen Sie Vorschläge, reagieren Sie auf die Vorschläge Ihrer Partnerin oder Ihres Partners und einigen Sie sich am Ende auf eine Lösung.",
+            "prompts": [
+              "Was tun Sie jetzt: den Termin verschieben oder selbst übernehmen?",
+              "Wer muss informiert werden (Kunde, Vorgesetzte, kranke Kollegin) und wie?",
+              "Woher bekommen Sie die nötigen Unterlagen und Informationen?",
+              "Wie teilen Sie die Aufgaben im Gespräch unter sich auf?",
+              "Wie lässt sich so eine Situation in Zukunft vermeiden?"
+            ],
+            "phrases": [
+              "Ich sehe zwei Möglichkeiten: Entweder … oder …",
+              "Ich schlage vor, dass wir …",
+              "Was hältst du davon, wenn …?",
+              "Das finde ich schwierig, weil …",
+              "Da hast du recht. Dann sollten wir …",
+              "Ich könnte … übernehmen, wenn du …",
+              "Für die Zukunft wäre es sinnvoll, …",
+              "Dann machen wir es so: …"
+            ],
+            "modelAnswer": "A: Hast du schon gehört? Sabine hat sich gerade krankgemeldet. Und um elf kommt Herr Roth von der Firma Roth Möbel.\nB: Oh nein, ausgerechnet heute. Sabine sollte doch das Gespräch leiten. Was machen wir jetzt?\nA: Ich sehe zwei Möglichkeiten: Entweder wir verschieben den Termin, oder einer von uns übernimmt ihn.\nB: Verschieben finde ich schwierig. Herr Roth reist extra aus Leipzig an und sitzt wahrscheinlich schon im Zug.\nA: Da hast du recht. Dann sollten wir das Gespräch selbst führen. Du warst doch beim letzten Treffen dabei, oder?\nB: Ja, aber ich kenne das neue Angebot nicht im Detail. Weißt du, wo Sabine ihre Unterlagen hat?\nA: Die Präsentation liegt im gemeinsamen Ordner. Ich schlage vor, ich schreibe Sabine kurz eine Nachricht und frage, ob es etwas gibt, worauf wir besonders achten müssen.\nB: Gute Idee, aber bitte nur kurz, sie soll sich ja erholen. Und wir sollten unsere Chefin informieren. Vielleicht kann sie am Anfang dazukommen und Herrn Roth begrüßen.\nA: Einverstanden, ich rufe sie gleich an. Und wie teilen wir uns auf?\nB: Ich könnte die Präsentation übernehmen, wenn du die Fragen zu Preisen und Lieferzeiten beantwortest.\nA: Das passt. Wenn wir etwas nicht wissen, sagen wir ehrlich, dass Sabine sich nächste Woche bei ihm meldet.\nB: Genau. Und für die Zukunft sollten wir im Team vorschlagen, dass es für jeden wichtigen Kundentermin eine feste Vertretung gibt, die die Unterlagen kennt.\nA: Ja, das spreche ich in der nächsten Teamsitzung an. Dann treffen wir uns um zehn im Besprechungsraum und gehen alles einmal durch?\nB: Abgemacht. Bis gleich!",
+            "criteria": [
+              "Did you make your own suggestions and give reasons for them?",
+              "Did you respond to your partner's ideas (agreeing, objecting politely, asking back)?",
+              "Did you cover the immediate step, who to contact and a long-term solution?",
+              "Did you reach a clear agreement at the end of the conversation?",
+              "Did you use phrases for suggesting, agreeing and disagreeing?"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
