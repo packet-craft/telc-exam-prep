@@ -84,8 +84,11 @@ Card types and what `back` shows:
 | `reflexive` | Reflexive verb | `sich vorstellen` → `sich (Dat.) etwas vorstellen` |
 | `nvv` | Nomen-Verb-Verbindung | `eine Entscheidung …` → `eine Entscheidung treffen` |
 | `noun` | Noun with article and plural | `Vertrag` → `der Vertrag, die Verträge` |
+| `connector` | Connector and its word order | `trotzdem` → `trotzdem + Verb direkt danach (Hauptsatz, Position 1)` |
+| `prep-case` | Preposition and its case | `wegen` → `wegen + Gen.` |
+| `phrase` | Set phrase for letters and discussions | `Ich wäre Ihnen dankbar, … Sie …` → the full phrase |
 
-To add a topic or type, add it to `topics` or `types` at the top of the deck file. CI requires at least 250 cards, 20 per topic and 25 per type.
+To add a topic or type, add it to `topics` or `types` at the top of the deck file. A new type also needs its question in `QUESTIONS` at the top of `assets/js/flashcards.js` (shown on the front of the card). CI requires at least 250 cards, 20 per topic and 25 per type.
 
 ## Adding a model test
 
