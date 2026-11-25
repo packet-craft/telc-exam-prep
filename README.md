@@ -19,6 +19,7 @@ assets/js/flashcards.js Flashcard page logic and Anki export
 assets/js/tests.js      Test rendering, scoring, timer, listening playback
 assets/js/official.js   Player for recordings the visitor downloaded
 assets/audio/           Generated listening recordings, one folder per test
+assets/img/favicon.svg  Logo mark (browser tab icon)
 data/deck.json          Flashcard deck
 data/tests/index.json   List of test files
 data/tests/test-N.json  One model test each
