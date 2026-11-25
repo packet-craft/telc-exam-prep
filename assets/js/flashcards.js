@@ -14,7 +14,10 @@
     "verb-case": "Dativ, Akkusativ or both?",
     "reflexive": "Is „sich“ Akkusativ or Dativ? What else does the verb need?",
     "nvv": "Which verb completes the phrase?",
-    "noun": "Article and plural?"
+    "noun": "Article and plural?",
+    "connector": "Main clause or subordinate clause? Where does the verb go?",
+    "prep-case": "Which case?",
+    "phrase": "Complete the phrase."
   };
 
   var deck = null;      // loaded deck file

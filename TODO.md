@@ -41,7 +41,7 @@ Tracks the build described in `requirements.txt`.
 ## 4. Flashcards
 
 - [x] Define and document the card schema (stable `id`, type, topic, grammar pattern, translation, example)
-- [x] Write the deck: 250+ cards, at least 20 per topic, at least 25 per card type
+- [x] Write the deck: 500 cards in 10 card types, at least 20 per topic and 25 per card type
 - [x] Simplified SM-2 scheduler with Again / Hard / Good / Easy and interval previews
 - [x] Progress saved in `localStorage` by card `id`
 - [x] Daily new-card limit setting
