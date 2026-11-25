@@ -1,0 +1,8 @@
+{
+  "tests": [
+    { "file": "test-1.json", "title": "Model test 1" },
+    { "file": "test-2.json", "title": "Model test 2" },
+    { "file": "test-3.json", "title": "Model test 3" },
+    { "file": "test-4.json", "title": "Model test 4" }
+  ]
+}
