@@ -1,8 +1,36 @@
 {
   "tests": [
-    { "file": "test-1.json", "title": "Model test 1" },
-    { "file": "test-2.json", "title": "Model test 2" },
-    { "file": "test-3.json", "title": "Model test 3" },
-    { "file": "test-4.json", "title": "Model test 4" }
+    {
+      "file": "test-1.json",
+      "title": "Model test 1"
+    },
+    {
+      "file": "test-2.json",
+      "title": "Model test 2"
+    },
+    {
+      "file": "test-3.json",
+      "title": "Model test 3"
+    },
+    {
+      "file": "test-4.json",
+      "title": "Model test 4"
+    },
+    {
+      "file": "test-5.json",
+      "title": "Model test 5"
+    },
+    {
+      "file": "test-6.json",
+      "title": "Model test 6"
+    },
+    {
+      "file": "test-7.json",
+      "title": "Model test 7"
+    },
+    {
+      "file": "test-8.json",
+      "title": "Model test 8"
+    }
   ]
 }

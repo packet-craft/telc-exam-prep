@@ -63,6 +63,7 @@ Tracks the build described in `requirements.txt`.
 - [x] Write test set 2
 - [x] Write test set 3
 - [x] Write test set 4
+- [x] Write test sets 5–8 with recordings
 
 ## 6. Verification
 
