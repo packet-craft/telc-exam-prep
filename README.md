@@ -11,15 +11,20 @@ index.html              Home page
 overview.html           Exam overview (format, timing, scoring, tips)
 flashcards.html         Flashcard trainer
 tests.html              Model tests (list, and one test via ?test=test-1)
+official.html           How to get telc's official recordings, and a player for them
 assets/css/style.css    All styles (light and dark mode)
 assets/js/common.js     Shared helpers: navigation, data loading, storage
 assets/js/srs.js        Spaced-repetition scheduler (simplified SM-2)
 assets/js/flashcards.js Flashcard page logic and Anki export
 assets/js/tests.js      Test rendering, scoring, timer, listening playback
+assets/js/official.js   Player for recordings the visitor downloaded
+assets/audio/           Generated listening recordings, one folder per test
+assets/img/favicon.svg  Logo mark (browser tab icon)
 data/deck.json          Flashcard deck
 data/tests/index.json   List of test files
 data/tests/test-N.json  One model test each
 scripts/validate.py     Data and link checks (run by CI)
+scripts/generate_audio.py  Generates the listening recordings
 .github/workflows/      CI and GitHub Pages deployment
 ```
 
@@ -167,9 +172,20 @@ Notes:
 
 ### Listening audio
 
-By default the browser reads each transcript aloud with its built-in German voice (`voice` `"m"`/`"f"` picks a different voice or pitch per speaker). Quality depends on the device.
+Each audio stimulus has an `audio` field with the path of its MP3 (`assets/audio/<test>/<part>-<stimulus>.mp3`). The recordings shipped with the site are generated from the transcripts with [Piper](https://github.com/OHF-Voice/piper1-gpl), an offline text-to-speech engine, using one male and one female German voice (both published under CC0).
 
-To use a real recording instead, put an MP3 in `assets/audio/` and set the stimulus's `audio` field to its path, for example `"audio": "assets/audio/test-1-hoeren-1-g1.mp3"`. The page then plays the file and ignores speech synthesis for that clip.
+After you add a test or change a transcript, generate the recordings (needs Python 3.9+ and `ffmpeg`):
+
+```
+python3 -m venv .venv && .venv/bin/pip install piper-tts
+.venv/bin/python -m piper.download_voices --data-dir .voices de_DE-thorsten-high de_DE-kerstin-medium
+.venv/bin/python scripts/generate_audio.py --voices-dir .voices           # new clips only
+.venv/bin/python scripts/generate_audio.py --voices-dir .voices --force   # regenerate all
+```
+
+The script writes the MP3s and sets the `audio` fields. `--dry-run` shows how dates, phone numbers and abbreviations will be spoken. To use your own recordings instead, save them under the same file names.
+
+If `audio` is `null` or the file cannot be loaded, the page falls back to the browser's built-in German voice, which sounds robotic on many devices.
 
 ### Scoring
 

@@ -397,52 +397,164 @@
               "id": "g1",
               "kind": "audio",
               "title": "Gespräch 1",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-1-g1.mp3",
               "transcript": [
-                { "speaker": "Frau Aydın", "voice": "f", "text": "Herr Jovanović, haben Sie kurz Zeit? Mir ist aufgefallen, dass bei drei Patienten die Blutdruckwerte von heute früh in der digitalen Akte fehlen." },
-                { "speaker": "Herr Jovanović", "voice": "m", "text": "Ja, das stimmt, Frau Aydın. Als ich um sechs mit der Runde anfangen wollte, waren beide Tablets leer. Ich habe die Werte auf Papier notiert und wollte sie später nachtragen. Dazu bin ich leider noch nicht gekommen." },
-                { "speaker": "Frau Aydın", "voice": "f", "text": "Verstehe. Das passiert jetzt schon zum zweiten Mal in dieser Woche. Woran liegt das denn?" },
-                { "speaker": "Herr Jovanović", "voice": "m", "text": "Die Ladestation steht im Arztzimmer, und das ist nachts abgeschlossen. Der Nachtdienst kommt also gar nicht an sie heran." },
-                { "speaker": "Frau Aydın", "voice": "f", "text": "Ach so, das wusste ich nicht. Dann lassen wir die Station ins Stationszimmer umstellen. Dort kann der Nachtdienst die Geräte nach der letzten Runde anschließen. Ich rufe gleich die Haustechnik an." },
-                { "speaker": "Herr Jovanović", "voice": "m", "text": "Das wäre eine große Hilfe. Und bis dahin?" },
-                { "speaker": "Frau Aydın", "voice": "f", "text": "Bis dahin bringen Sie bitte abends ein Tablet zum Empfang, dort gibt es ein Ladekabel. Und tragen Sie die Werte von heute bitte bis zum Mittag nach." },
-                { "speaker": "Herr Jovanović", "voice": "m", "text": "Mache ich, das erledige ich gleich nach der Visite." }
+                {
+                  "speaker": "Frau Aydın",
+                  "voice": "f",
+                  "text": "Herr Jovanović, haben Sie kurz Zeit? Mir ist aufgefallen, dass bei drei Patienten die Blutdruckwerte von heute früh in der digitalen Akte fehlen."
+                },
+                {
+                  "speaker": "Herr Jovanović",
+                  "voice": "m",
+                  "text": "Ja, das stimmt, Frau Aydın. Als ich um sechs mit der Runde anfangen wollte, waren beide Tablets leer. Ich habe die Werte auf Papier notiert und wollte sie später nachtragen. Dazu bin ich leider noch nicht gekommen."
+                },
+                {
+                  "speaker": "Frau Aydın",
+                  "voice": "f",
+                  "text": "Verstehe. Das passiert jetzt schon zum zweiten Mal in dieser Woche. Woran liegt das denn?"
+                },
+                {
+                  "speaker": "Herr Jovanović",
+                  "voice": "m",
+                  "text": "Die Ladestation steht im Arztzimmer, und das ist nachts abgeschlossen. Der Nachtdienst kommt also gar nicht an sie heran."
+                },
+                {
+                  "speaker": "Frau Aydın",
+                  "voice": "f",
+                  "text": "Ach so, das wusste ich nicht. Dann lassen wir die Station ins Stationszimmer umstellen. Dort kann der Nachtdienst die Geräte nach der letzten Runde anschließen. Ich rufe gleich die Haustechnik an."
+                },
+                {
+                  "speaker": "Herr Jovanović",
+                  "voice": "m",
+                  "text": "Das wäre eine große Hilfe. Und bis dahin?"
+                },
+                {
+                  "speaker": "Frau Aydın",
+                  "voice": "f",
+                  "text": "Bis dahin bringen Sie bitte abends ein Tablet zum Empfang, dort gibt es ein Ladekabel. Und tragen Sie die Werte von heute bitte bis zum Mittag nach."
+                },
+                {
+                  "speaker": "Herr Jovanović",
+                  "voice": "m",
+                  "text": "Mache ich, das erledige ich gleich nach der Visite."
+                }
               ]
             },
             {
               "id": "g2",
               "kind": "audio",
               "title": "Gespräch 2",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-1-g2.mp3",
               "transcript": [
-                { "speaker": "Herr Castillo", "voice": "m", "text": "Frau Wrobel, wie sieht es mit dem grauen Kombi von Herrn Petersen aus? Der soll um 16 Uhr abgeholt werden." },
-                { "speaker": "Frau Wrobel", "voice": "f", "text": "Das wird leider nichts. Der Lieferant hat heute Morgen die falschen Bremsscheiben geschickt, die sind für das Vorgängermodell." },
-                { "speaker": "Herr Castillo", "voice": "m", "text": "Schon wieder? Haben Sie das reklamiert?" },
-                { "speaker": "Frau Wrobel", "voice": "f", "text": "Ja, sofort. Die richtigen kommen aber erst morgen mit der Frühlieferung, gegen acht." },
-                { "speaker": "Herr Castillo", "voice": "m", "text": "Hm. Herr Petersen braucht den Wagen, er fährt jeden Tag zur Arbeit nach Neustadt. Können wir die Teile nicht irgendwo anders herbekommen?" },
-                { "speaker": "Frau Wrobel", "voice": "f", "text": "Ich habe schon in unserer Filiale in der Hafenstraße nachgefragt, die haben auch keine auf Lager. Mein Vorschlag wäre: Wir geben ihm bis morgen unseren Ersatzwagen mit. Der kleine Rote ist frei." },
-                { "speaker": "Herr Castillo", "voice": "m", "text": "Gute Idee. Natürlich ohne Berechnung, der Fehler liegt ja nicht bei ihm. Rufen Sie ihn an?" },
-                { "speaker": "Frau Wrobel", "voice": "f", "text": "Mir wäre es lieber, wenn Sie das machen. Er war beim letzten Mal schon etwas verärgert." },
-                { "speaker": "Herr Castillo", "voice": "m", "text": "In Ordnung, ich übernehme das. Und Sie bauen die Scheiben morgen als Erstes ein, damit er den Wagen bis zehn hat." },
-                { "speaker": "Frau Wrobel", "voice": "f", "text": "Geht klar." }
+                {
+                  "speaker": "Herr Castillo",
+                  "voice": "m",
+                  "text": "Frau Wrobel, wie sieht es mit dem grauen Kombi von Herrn Petersen aus? Der soll um 16 Uhr abgeholt werden."
+                },
+                {
+                  "speaker": "Frau Wrobel",
+                  "voice": "f",
+                  "text": "Das wird leider nichts. Der Lieferant hat heute Morgen die falschen Bremsscheiben geschickt, die sind für das Vorgängermodell."
+                },
+                {
+                  "speaker": "Herr Castillo",
+                  "voice": "m",
+                  "text": "Schon wieder? Haben Sie das reklamiert?"
+                },
+                {
+                  "speaker": "Frau Wrobel",
+                  "voice": "f",
+                  "text": "Ja, sofort. Die richtigen kommen aber erst morgen mit der Frühlieferung, gegen acht."
+                },
+                {
+                  "speaker": "Herr Castillo",
+                  "voice": "m",
+                  "text": "Hm. Herr Petersen braucht den Wagen, er fährt jeden Tag zur Arbeit nach Neustadt. Können wir die Teile nicht irgendwo anders herbekommen?"
+                },
+                {
+                  "speaker": "Frau Wrobel",
+                  "voice": "f",
+                  "text": "Ich habe schon in unserer Filiale in der Hafenstraße nachgefragt, die haben auch keine auf Lager. Mein Vorschlag wäre: Wir geben ihm bis morgen unseren Ersatzwagen mit. Der kleine Rote ist frei."
+                },
+                {
+                  "speaker": "Herr Castillo",
+                  "voice": "m",
+                  "text": "Gute Idee. Natürlich ohne Berechnung, der Fehler liegt ja nicht bei ihm. Rufen Sie ihn an?"
+                },
+                {
+                  "speaker": "Frau Wrobel",
+                  "voice": "f",
+                  "text": "Mir wäre es lieber, wenn Sie das machen. Er war beim letzten Mal schon etwas verärgert."
+                },
+                {
+                  "speaker": "Herr Castillo",
+                  "voice": "m",
+                  "text": "In Ordnung, ich übernehme das. Und Sie bauen die Scheiben morgen als Erstes ein, damit er den Wagen bis zehn hat."
+                },
+                {
+                  "speaker": "Frau Wrobel",
+                  "voice": "f",
+                  "text": "Geht klar."
+                }
               ]
             },
             {
               "id": "g3",
               "kind": "audio",
               "title": "Gespräch 3",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-1-g3.mp3",
               "transcript": [
-                { "speaker": "Herr Nakamura", "voice": "m", "text": "IT-Support, Kenji Nakamura, guten Tag." },
-                { "speaker": "Frau Brandt", "voice": "f", "text": "Guten Tag, Carla Brandt aus der Buchhaltung. Seit dem Update gestern Abend kann ich nicht mehr drucken. Ich muss aber bis zwölf die Rechnungen rausschicken." },
-                { "speaker": "Herr Nakamura", "voice": "m", "text": "Das Problem kennen wir leider, das betrifft seit heute Morgen mehrere Rechner auf Ihrer Etage. Der Druckertreiber muss neu installiert werden. Das dauert etwa zwanzig Minuten, und ich kann das aus der Ferne machen." },
-                { "speaker": "Frau Brandt", "voice": "f", "text": "Zwanzig Minuten? Ich habe in fünf Minuten eine Besprechung, die geht bis elf." },
-                { "speaker": "Herr Nakamura", "voice": "m", "text": "Das passt doch gut. Lassen Sie den Rechner einfach an und melden Sie sich nicht ab, dann erledige ich das, während Sie weg sind." },
-                { "speaker": "Frau Brandt", "voice": "f", "text": "Muss ich Ihnen dafür mein Passwort geben?" },
-                { "speaker": "Herr Nakamura", "voice": "m", "text": "Nein, auf keinen Fall, das brauche ich nicht. Sperren Sie nur den Bildschirm." },
-                { "speaker": "Frau Brandt", "voice": "f", "text": "Gut. Und falls es bis elf doch nicht klappt?" },
-                { "speaker": "Herr Nakamura", "voice": "m", "text": "Dann können Sie Ihre Rechnungen über den Drucker im dritten Stock ausdrucken, der funktioniert. Aber ich bin sicher, das wird nicht nötig sein. Ich schicke Ihnen eine kurze Mail, sobald alles läuft." },
-                { "speaker": "Frau Brandt", "voice": "f", "text": "Prima, vielen Dank." }
+                {
+                  "speaker": "Herr Nakamura",
+                  "voice": "m",
+                  "text": "IT-Support, Kenji Nakamura, guten Tag."
+                },
+                {
+                  "speaker": "Frau Brandt",
+                  "voice": "f",
+                  "text": "Guten Tag, Carla Brandt aus der Buchhaltung. Seit dem Update gestern Abend kann ich nicht mehr drucken. Ich muss aber bis zwölf die Rechnungen rausschicken."
+                },
+                {
+                  "speaker": "Herr Nakamura",
+                  "voice": "m",
+                  "text": "Das Problem kennen wir leider, das betrifft seit heute Morgen mehrere Rechner auf Ihrer Etage. Der Druckertreiber muss neu installiert werden. Das dauert etwa zwanzig Minuten, und ich kann das aus der Ferne machen."
+                },
+                {
+                  "speaker": "Frau Brandt",
+                  "voice": "f",
+                  "text": "Zwanzig Minuten? Ich habe in fünf Minuten eine Besprechung, die geht bis elf."
+                },
+                {
+                  "speaker": "Herr Nakamura",
+                  "voice": "m",
+                  "text": "Das passt doch gut. Lassen Sie den Rechner einfach an und melden Sie sich nicht ab, dann erledige ich das, während Sie weg sind."
+                },
+                {
+                  "speaker": "Frau Brandt",
+                  "voice": "f",
+                  "text": "Muss ich Ihnen dafür mein Passwort geben?"
+                },
+                {
+                  "speaker": "Herr Nakamura",
+                  "voice": "m",
+                  "text": "Nein, auf keinen Fall, das brauche ich nicht. Sperren Sie nur den Bildschirm."
+                },
+                {
+                  "speaker": "Frau Brandt",
+                  "voice": "f",
+                  "text": "Gut. Und falls es bis elf doch nicht klappt?"
+                },
+                {
+                  "speaker": "Herr Nakamura",
+                  "voice": "m",
+                  "text": "Dann können Sie Ihre Rechnungen über den Drucker im dritten Stock ausdrucken, der funktioniert. Aber ich bin sicher, das wird nicht nötig sein. Ich schicke Ihnen eine kurze Mail, sobald alles läuft."
+                },
+                {
+                  "speaker": "Frau Brandt",
+                  "voice": "f",
+                  "text": "Prima, vielen Dank."
+                }
               ]
             }
           ],
@@ -522,46 +634,80 @@
               "id": "s1",
               "kind": "audio",
               "title": "Sprecherin 1",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-2-s1.mp3",
               "transcript": [
-                { "speaker": "Sprecherin 1", "voice": "f", "text": "Ich arbeite seit zwölf Jahren im Krankenhaus, und ehrlich gesagt: Ohne Überstunden geht es bei uns nicht. Wenn eine Kollegin ausfällt, kann ich die Patienten ja nicht allein lassen. Das akzeptiere ich. Was mich aber stört, ist, dass man uns die Stunden am liebsten auszahlen möchte. Ich will das Geld gar nicht. Was ich brauche, ist Zeit, um mich zu erholen. Für jede zusätzliche Schicht möchte ich einen freien Tag, und zwar bald und nicht erst in einem halben Jahr." }
+                {
+                  "speaker": "Sprecherin 1",
+                  "voice": "f",
+                  "text": "Ich arbeite seit zwölf Jahren im Krankenhaus, und ehrlich gesagt: Ohne Überstunden geht es bei uns nicht. Wenn eine Kollegin ausfällt, kann ich die Patienten ja nicht allein lassen. Das akzeptiere ich. Was mich aber stört, ist, dass man uns die Stunden am liebsten auszahlen möchte. Ich will das Geld gar nicht. Was ich brauche, ist Zeit, um mich zu erholen. Für jede zusätzliche Schicht möchte ich einen freien Tag, und zwar bald und nicht erst in einem halben Jahr."
+                }
               ]
             },
             {
               "id": "s2",
               "kind": "audio",
               "title": "Sprecher 2",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-2-s2.mp3",
               "transcript": [
-                { "speaker": "Sprecher 2", "voice": "m", "text": "Bei uns im IT-Support wird ständig länger gearbeitet, und viele halten das für normal. Ich sehe das anders. Klar, wenn mal ein Server ausfällt, bleibe ich selbstverständlich, bis er wieder läuft. Aber wenn ein Team jede Woche Überstunden macht, dann stimmt etwas Grundsätzliches nicht: Entweder gibt es zu wenig Personal oder die Aufgaben sind schlecht verteilt. Da nützt es auch nichts, die Stunden zu bezahlen. Die Leitung müsste endlich die Abläufe verbessern." }
+                {
+                  "speaker": "Sprecher 2",
+                  "voice": "m",
+                  "text": "Bei uns im IT-Support wird ständig länger gearbeitet, und viele halten das für normal. Ich sehe das anders. Klar, wenn mal ein Server ausfällt, bleibe ich selbstverständlich, bis er wieder läuft. Aber wenn ein Team jede Woche Überstunden macht, dann stimmt etwas Grundsätzliches nicht: Entweder gibt es zu wenig Personal oder die Aufgaben sind schlecht verteilt. Da nützt es auch nichts, die Stunden zu bezahlen. Die Leitung müsste endlich die Abläufe verbessern."
+                }
               ]
             },
             {
               "id": "s3",
               "kind": "audio",
               "title": "Sprecherin 3",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-2-s3.mp3",
               "transcript": [
-                { "speaker": "Sprecherin 3", "voice": "f", "text": "Also, ich kann die ganze Aufregung nicht verstehen. Ich arbeite im Verkauf, und vor Weihnachten oder im Schlussverkauf fallen natürlich mehr Stunden an. Mir ist das sehr recht. Die Überstunden werden bei uns mit einem Zuschlag ausgezahlt, und davon habe ich mir letztes Jahr den Führerschein finanziert. Mit meinem normalen Gehalt hätte ich dafür viel länger sparen müssen. Solange es dieses Extra gibt, bleibe ich gern mal zwei Stunden länger im Laden." }
+                {
+                  "speaker": "Sprecherin 3",
+                  "voice": "f",
+                  "text": "Also, ich kann die ganze Aufregung nicht verstehen. Ich arbeite im Verkauf, und vor Weihnachten oder im Schlussverkauf fallen natürlich mehr Stunden an. Mir ist das sehr recht. Die Überstunden werden bei uns mit einem Zuschlag ausgezahlt, und davon habe ich mir letztes Jahr den Führerschein finanziert. Mit meinem normalen Gehalt hätte ich dafür viel länger sparen müssen. Solange es dieses Extra gibt, bleibe ich gern mal zwei Stunden länger im Laden."
+                }
               ]
             },
             {
               "id": "s4",
               "kind": "audio",
               "title": "Sprecher 4",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-2-s4.mp3",
               "transcript": [
-                { "speaker": "Sprecher 4", "voice": "m", "text": "In der Werkstatt kommt es oft vor, dass ein Auto unbedingt noch fertig werden muss. Ich habe nichts dagegen, länger zu bleiben. Aber ich habe zwei kleine Kinder, und meine Frau arbeitet im Schichtdienst. Wenn mir der Chef erst um vier sagt, dass ich bis sieben bleiben soll, bekomme ich zu Hause ein echtes Problem. Erfahre ich es dagegen zwei, drei Tage vorher, kann ich alles organisieren. Dann ist das für mich völlig in Ordnung." }
+                {
+                  "speaker": "Sprecher 4",
+                  "voice": "m",
+                  "text": "In der Werkstatt kommt es oft vor, dass ein Auto unbedingt noch fertig werden muss. Ich habe nichts dagegen, länger zu bleiben. Aber ich habe zwei kleine Kinder, und meine Frau arbeitet im Schichtdienst. Wenn mir der Chef erst um vier sagt, dass ich bis sieben bleiben soll, bekomme ich zu Hause ein echtes Problem. Erfahre ich es dagegen zwei, drei Tage vorher, kann ich alles organisieren. Dann ist das für mich völlig in Ordnung."
+                }
               ]
             }
           ],
           "options": [
-            { "key": "a", "text": "Wer beruflich vorankommen will, sollte freiwillig länger arbeiten." },
-            { "key": "b", "text": "Überstunden sind in Ordnung, wenn sie rechtzeitig angekündigt werden." },
-            { "key": "c", "text": "Mehrarbeit sollte durch Freizeit und nicht durch Geld ausgeglichen werden." },
-            { "key": "d", "text": "Überstunden sollten im Betrieb grundsätzlich verboten sein." },
-            { "key": "e", "text": "Überstunden sind eine gute Gelegenheit, das Einkommen aufzubessern." },
-            { "key": "f", "text": "Häufige Überstunden zeigen, dass die Arbeit schlecht organisiert ist." }
+            {
+              "key": "a",
+              "text": "Wer beruflich vorankommen will, sollte freiwillig länger arbeiten."
+            },
+            {
+              "key": "b",
+              "text": "Überstunden sind in Ordnung, wenn sie rechtzeitig angekündigt werden."
+            },
+            {
+              "key": "c",
+              "text": "Mehrarbeit sollte durch Freizeit und nicht durch Geld ausgeglichen werden."
+            },
+            {
+              "key": "d",
+              "text": "Überstunden sollten im Betrieb grundsätzlich verboten sein."
+            },
+            {
+              "key": "e",
+              "text": "Überstunden sind eine gute Gelegenheit, das Einkommen aufzubessern."
+            },
+            {
+              "key": "f",
+              "text": "Häufige Überstunden zeigen, dass die Arbeit schlecht organisiert ist."
+            }
           ],
           "items": [
             {
@@ -608,15 +754,43 @@
               "id": "v1",
               "kind": "audio",
               "title": "Vortrag",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-3-v1.mp3",
               "transcript": [
-                { "speaker": "Frau Sokolova", "voice": "f", "text": "Guten Morgen zusammen, schön, dass alle da sind. Ich möchte Sie heute über den Umbau unserer Filiale informieren, der in drei Wochen beginnt." },
-                { "speaker": "Frau Sokolova", "voice": "f", "text": "Zuerst zum Zeitplan. Die Arbeiten dauern insgesamt sechs Wochen. Anders als die Filiale in der Bahnhofstraße im letzten Jahr schließen wir in dieser Zeit nicht komplett. Wir bleiben geöffnet, allerdings wird immer ein Teil der Verkaufsfläche abgesperrt sein. Nur am letzten Wochenende, wenn der neue Boden verlegt wird, bleibt das Geschäft von Samstagmittag bis Montagfrüh zu." },
-                { "speaker": "Frau Sokolova", "voice": "f", "text": "Was wird sich ändern? Der Kassenbereich wird vollständig erneuert. Wir bekommen neben den vier normalen Kassen sechs Selbstbedienungskassen. Ich weiß, dass einige von Ihnen befürchten, dass dadurch Stellen wegfallen. Das ist nicht der Fall. Die Zentrale hat mir schriftlich zugesichert, dass niemand entlassen wird. Wer bisher hauptsächlich an der Kasse saß, wird künftig häufiger im Service eingesetzt, also bei der Betreuung der Selbstbedienungskassen und an der neuen Frischetheke." },
-                { "speaker": "Frau Sokolova", "voice": "f", "text": "Damit komme ich zum Thema Schulungen. Alle, die an den neuen Kassen arbeiten, erhalten eine halbtägige Einweisung durch den Hersteller. Die Termine hängen ab morgen im Pausenraum aus. Bitte tragen Sie sich bis Freitag selbst in die Liste ein. Die Schulung findet während der Arbeitszeit statt; wer an seinem freien Tag teilnimmt, bekommt die Stunden gutgeschrieben." },
-                { "speaker": "Frau Sokolova", "voice": "f", "text": "Noch ein Wort zum Pausenraum: Er muss während des Umbaus als Lager genutzt werden. Als Ersatz stellen wir im Hof einen Container auf, mit Tischen, Kühlschrank und Mikrowelle. Das ist keine ideale Lösung, das ist mir bewusst, aber sie gilt nur für die sechs Wochen. Danach bekommen Sie einen renovierten Pausenraum mit neuer Küche." },
-                { "speaker": "Frau Sokolova", "voice": "f", "text": "Zum Schluss eine Bitte: Während der Bauzeit wird es lauter und enger sein als sonst, und manche Kundinnen und Kunden werden sich beschweren, weil sie Produkte nicht finden. Bleiben Sie bitte geduldig und begleiten Sie die Kunden, wenn möglich, direkt zum Regal. An den Eingängen legen wir außerdem Lagepläne aus, die jede Woche aktualisiert werden." },
-                { "speaker": "Frau Sokolova", "voice": "f", "text": "Wenn Sie Fragen oder Vorschläge haben, sprechen Sie mich jederzeit an oder werfen Sie einen Zettel in den Briefkasten vor meinem Büro. Vielen Dank für Ihre Aufmerksamkeit." }
+                {
+                  "speaker": "Frau Sokolova",
+                  "voice": "f",
+                  "text": "Guten Morgen zusammen, schön, dass alle da sind. Ich möchte Sie heute über den Umbau unserer Filiale informieren, der in drei Wochen beginnt."
+                },
+                {
+                  "speaker": "Frau Sokolova",
+                  "voice": "f",
+                  "text": "Zuerst zum Zeitplan. Die Arbeiten dauern insgesamt sechs Wochen. Anders als die Filiale in der Bahnhofstraße im letzten Jahr schließen wir in dieser Zeit nicht komplett. Wir bleiben geöffnet, allerdings wird immer ein Teil der Verkaufsfläche abgesperrt sein. Nur am letzten Wochenende, wenn der neue Boden verlegt wird, bleibt das Geschäft von Samstagmittag bis Montagfrüh zu."
+                },
+                {
+                  "speaker": "Frau Sokolova",
+                  "voice": "f",
+                  "text": "Was wird sich ändern? Der Kassenbereich wird vollständig erneuert. Wir bekommen neben den vier normalen Kassen sechs Selbstbedienungskassen. Ich weiß, dass einige von Ihnen befürchten, dass dadurch Stellen wegfallen. Das ist nicht der Fall. Die Zentrale hat mir schriftlich zugesichert, dass niemand entlassen wird. Wer bisher hauptsächlich an der Kasse saß, wird künftig häufiger im Service eingesetzt, also bei der Betreuung der Selbstbedienungskassen und an der neuen Frischetheke."
+                },
+                {
+                  "speaker": "Frau Sokolova",
+                  "voice": "f",
+                  "text": "Damit komme ich zum Thema Schulungen. Alle, die an den neuen Kassen arbeiten, erhalten eine halbtägige Einweisung durch den Hersteller. Die Termine hängen ab morgen im Pausenraum aus. Bitte tragen Sie sich bis Freitag selbst in die Liste ein. Die Schulung findet während der Arbeitszeit statt; wer an seinem freien Tag teilnimmt, bekommt die Stunden gutgeschrieben."
+                },
+                {
+                  "speaker": "Frau Sokolova",
+                  "voice": "f",
+                  "text": "Noch ein Wort zum Pausenraum: Er muss während des Umbaus als Lager genutzt werden. Als Ersatz stellen wir im Hof einen Container auf, mit Tischen, Kühlschrank und Mikrowelle. Das ist keine ideale Lösung, das ist mir bewusst, aber sie gilt nur für die sechs Wochen. Danach bekommen Sie einen renovierten Pausenraum mit neuer Küche."
+                },
+                {
+                  "speaker": "Frau Sokolova",
+                  "voice": "f",
+                  "text": "Zum Schluss eine Bitte: Während der Bauzeit wird es lauter und enger sein als sonst, und manche Kundinnen und Kunden werden sich beschweren, weil sie Produkte nicht finden. Bleiben Sie bitte geduldig und begleiten Sie die Kunden, wenn möglich, direkt zum Regal. An den Eingängen legen wir außerdem Lagepläne aus, die jede Woche aktualisiert werden."
+                },
+                {
+                  "speaker": "Frau Sokolova",
+                  "voice": "f",
+                  "text": "Wenn Sie Fragen oder Vorschläge haben, sprechen Sie mich jederzeit an oder werfen Sie einen Zettel in den Briefkasten vor meinem Büro. Vielen Dank für Ihre Aufmerksamkeit."
+                }
               ]
             }
           ],
@@ -685,45 +859,65 @@
               "id": "n1",
               "kind": "audio",
               "title": "Nachricht 1",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-4-n1.mp3",
               "transcript": [
-                { "speaker": "Frau Öztürk", "voice": "f", "text": "Guten Tag, hier ist Selin Öztürk, die Tochter von Frau Öztürk aus Zimmer 12. Ich wollte meine Mutter eigentlich morgen um drei zum Augenarzt bringen, aber ich muss kurzfristig arbeiten. Der Termin selbst lässt sich leider nicht verschieben. Könnte vielleicht jemand von Ihrem Fahrdienst sie hinbringen? Abholen würde ich sie dann selbst, gegen halb fünf. Bitte rufen Sie mich heute noch zurück. Danke." }
+                {
+                  "speaker": "Frau Öztürk",
+                  "voice": "f",
+                  "text": "Guten Tag, hier ist Selin Öztürk, die Tochter von Frau Öztürk aus Zimmer 12. Ich wollte meine Mutter eigentlich morgen um drei zum Augenarzt bringen, aber ich muss kurzfristig arbeiten. Der Termin selbst lässt sich leider nicht verschieben. Könnte vielleicht jemand von Ihrem Fahrdienst sie hinbringen? Abholen würde ich sie dann selbst, gegen halb fünf. Bitte rufen Sie mich heute noch zurück. Danke."
+                }
               ]
             },
             {
               "id": "n2",
               "kind": "audio",
               "title": "Nachricht 2",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-4-n2.mp3",
               "transcript": [
-                { "speaker": "Herr Dlamini", "voice": "m", "text": "Hallo, Sipho Dlamini aus dem Vertrieb. Ich sitze gerade beim Kunden und komme nicht mehr in mein E-Mail-Postfach, mein Passwort ist offenbar abgelaufen. Über das Portal kann ich es nicht ändern, weil ich dafür im Firmennetz sein müsste. Können Sie mir bitte ein vorläufiges Passwort einrichten und per SMS aufs Diensthandy schicken? Ich brauche bis 14 Uhr ein Angebot aus meinen Mails. Vielen Dank." }
+                {
+                  "speaker": "Herr Dlamini",
+                  "voice": "m",
+                  "text": "Hallo, Sipho Dlamini aus dem Vertrieb. Ich sitze gerade beim Kunden und komme nicht mehr in mein E-Mail-Postfach, mein Passwort ist offenbar abgelaufen. Über das Portal kann ich es nicht ändern, weil ich dafür im Firmennetz sein müsste. Können Sie mir bitte ein vorläufiges Passwort einrichten und per SMS aufs Diensthandy schicken? Ich brauche bis 14 Uhr ein Angebot aus meinen Mails. Vielen Dank."
+                }
               ]
             },
             {
               "id": "n3",
               "kind": "audio",
               "title": "Nachricht 3",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-4-n3.mp3",
               "transcript": [
-                { "speaker": "Frau Lehmann", "voice": "f", "text": "Guten Tag, Lehmann hier. Ich habe für Donnerstag um acht einen Termin zum Reifenwechsel bei Ihnen. Jetzt leuchtet seit gestern auch noch eine gelbe Warnlampe am Armaturenbrett. Könnten Sie sich das bei der Gelegenheit gleich mit ansehen? Wenn es dadurch länger dauert, wäre das kein Problem, ich würde das Auto dann einfach erst am Nachmittag holen. Sie müssen nicht zurückrufen, außer es geht nicht. Danke schön." }
+                {
+                  "speaker": "Frau Lehmann",
+                  "voice": "f",
+                  "text": "Guten Tag, Lehmann hier. Ich habe für Donnerstag um acht einen Termin zum Reifenwechsel bei Ihnen. Jetzt leuchtet seit gestern auch noch eine gelbe Warnlampe am Armaturenbrett. Könnten Sie sich das bei der Gelegenheit gleich mit ansehen? Wenn es dadurch länger dauert, wäre das kein Problem, ich würde das Auto dann einfach erst am Nachmittag holen. Sie müssen nicht zurückrufen, außer es geht nicht. Danke schön."
+                }
               ]
             },
             {
               "id": "n4",
               "kind": "audio",
               "title": "Nachricht 4",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-4-n4.mp3",
               "transcript": [
-                { "speaker": "Herr Vasquez", "voice": "m", "text": "Guten Tag, Rafael Vasquez von der Großbäckerei Kornfeld. Es geht um Ihre Lieferung für morgen. Eines unserer Fahrzeuge ist ausgefallen, deshalb kommen wir nicht wie gewohnt um sechs, sondern erst gegen halb acht. Die Menge bleibt wie bestellt. Bitte sorgen Sie dafür, dass um diese Zeit jemand an der Warenannahme ist, sonst müssen wir die Ware wieder mitnehmen. Bei Fragen erreichen Sie mich unter der bekannten Nummer." }
+                {
+                  "speaker": "Herr Vasquez",
+                  "voice": "m",
+                  "text": "Guten Tag, Rafael Vasquez von der Großbäckerei Kornfeld. Es geht um Ihre Lieferung für morgen. Eines unserer Fahrzeuge ist ausgefallen, deshalb kommen wir nicht wie gewohnt um sechs, sondern erst gegen halb acht. Die Menge bleibt wie bestellt. Bitte sorgen Sie dafür, dass um diese Zeit jemand an der Warenannahme ist, sonst müssen wir die Ware wieder mitnehmen. Bei Fragen erreichen Sie mich unter der bekannten Nummer."
+                }
               ]
             },
             {
               "id": "n5",
               "kind": "audio",
               "title": "Nachricht 5",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-4-n5.mp3",
               "transcript": [
-                { "speaker": "Frau Nowicka", "voice": "f", "text": "Hallo Jonas, hier ist Beata Nowicka von der Station 4. Du, ich habe am Samstag Spätdienst, aber da feiert meine Schwester ihren vierzigsten Geburtstag. Du hast doch am Samstag frei, oder? Könntest du meinen Dienst übernehmen? Ich würde dafür deinen Frühdienst am Mittwoch machen. Die Stationsleitung hat schon gesagt, dass wir das unter uns regeln können. Gib mir bitte bis morgen Abend Bescheid, damit ich sonst noch jemand anderen fragen kann." }
+                {
+                  "speaker": "Frau Nowicka",
+                  "voice": "f",
+                  "text": "Hallo Jonas, hier ist Beata Nowicka von der Station 4. Du, ich habe am Samstag Spätdienst, aber da feiert meine Schwester ihren vierzigsten Geburtstag. Du hast doch am Samstag frei, oder? Könntest du meinen Dienst übernehmen? Ich würde dafür deinen Frühdienst am Mittwoch machen. Die Stationsleitung hat schon gesagt, dass wir das unter uns regeln können. Gib mir bitte bis morgen Abend Bescheid, damit ich sonst noch jemand anderen fragen kann."
+                }
               ]
             }
           ],
@@ -812,9 +1006,13 @@
               "id": "a1",
               "kind": "audio",
               "title": "Nachricht auf dem Anrufbeantworter",
-              "audio": null,
+              "audio": "assets/audio/test-2/hoeren-schreiben-a1.mp3",
               "transcript": [
-                { "speaker": "Herr Mokoena", "voice": "m", "text": "Guten Tag, hier spricht Thabo Mokoena vom Pflegedienst Sonnenweg. Ich buchstabiere den Nachnamen: M-O-K-O-E-N-A. Ich möchte gern eine Bestellung aufgeben. Wir brauchen zwölf Kartons Einmalhandschuhe in Größe M und sechs Kanister Händedesinfektionsmittel, jeweils fünf Liter. Wichtig ist, dass die Handschuhe latexfrei sind, weil zwei unserer Mitarbeiterinnen allergisch reagieren. Die Lieferung sollte bitte bis spätestens Freitag bei uns sein, und zwar vormittags zwischen acht und zwölf, danach ist das Büro nicht besetzt. Die Rechnung schicken Sie bitte wie immer per E-Mail an unsere Buchhaltung. Könnten Sie mich bitte heute noch zurückrufen und mir den Liefertermin bestätigen? Sie erreichen mich unter 0151 55 01 27 84. Ich wiederhole: 0151 55 01 27 84. Vielen Dank und auf Wiederhören." }
+                {
+                  "speaker": "Herr Mokoena",
+                  "voice": "m",
+                  "text": "Guten Tag, hier spricht Thabo Mokoena vom Pflegedienst Sonnenweg. Ich buchstabiere den Nachnamen: M-O-K-O-E-N-A. Ich möchte gern eine Bestellung aufgeben. Wir brauchen zwölf Kartons Einmalhandschuhe in Größe M und sechs Kanister Händedesinfektionsmittel, jeweils fünf Liter. Wichtig ist, dass die Handschuhe latexfrei sind, weil zwei unserer Mitarbeiterinnen allergisch reagieren. Die Lieferung sollte bitte bis spätestens Freitag bei uns sein, und zwar vormittags zwischen acht und zwölf, danach ist das Büro nicht besetzt. Die Rechnung schicken Sie bitte wie immer per E-Mail an unsere Buchhaltung. Könnten Sie mich bitte heute noch zurückrufen und mir den Liefertermin bestätigen? Sie erreichen mich unter 0151 55 01 27 84. Ich wiederhole: 0151 55 01 27 84. Vielen Dank und auf Wiederhören."
+                }
               ]
             }
           ],
@@ -834,10 +1032,26 @@
             }
           ],
           "notes": [
-            { "n": 42, "label": "Name / Firma", "expected": "Thabo Mokoena, Pflegedienst Sonnenweg" },
-            { "n": 43, "label": "Telefon", "expected": "0151 55 01 27 84" },
-            { "n": 44, "label": "Weitere Informationen", "expected": "12 Kartons Einmalhandschuhe, Größe M, latexfrei; 6 Kanister Händedesinfektionsmittel (je 5 Liter); Lieferung bis spätestens Freitag, vormittags zwischen 8 und 12 Uhr; Rechnung per E-Mail an die Buchhaltung" },
-            { "n": 45, "label": "Zu erledigen", "expected": "Heute noch zurückrufen und den Liefertermin bestätigen" }
+            {
+              "n": 42,
+              "label": "Name / Firma",
+              "expected": "Thabo Mokoena, Pflegedienst Sonnenweg"
+            },
+            {
+              "n": 43,
+              "label": "Telefon",
+              "expected": "0151 55 01 27 84"
+            },
+            {
+              "n": 44,
+              "label": "Weitere Informationen",
+              "expected": "12 Kartons Einmalhandschuhe, Größe M, latexfrei; 6 Kanister Händedesinfektionsmittel (je 5 Liter); Lieferung bis spätestens Freitag, vormittags zwischen 8 und 12 Uhr; Rechnung per E-Mail an die Buchhaltung"
+            },
+            {
+              "n": 45,
+              "label": "Zu erledigen",
+              "expected": "Heute noch zurückrufen und den Liefertermin bestätigen"
+            }
           ]
         }
       ]
@@ -854,16 +1068,46 @@
           "instructions": "Lesen Sie die folgende E-Mail und entscheiden Sie, welches Wort a–j in die Lücken 46–51 passt. Sie können jedes Wort nur einmal verwenden. Nicht alle Wörter passen in den Text.",
           "gapText": "Betreff: Meine Bewerbung als Pflegefachkraft vom 4. Mai\n\nSehr geehrte Frau Dr. Albrecht,\n\nam 4. Mai habe ich mich bei Ihnen um die Stelle als Pflegefachkraft in der Kardiologie beworben. Kurz [[46]] habe ich von Ihnen eine Eingangsbestätigung erhalten, in der Sie eine Rückmeldung innerhalb von drei Wochen ankündigten. [[47]] diese Frist inzwischen abgelaufen ist, erlaube ich mir, mich nach dem Stand des Verfahrens zu erkundigen.\n\nIch bin nach [[48]] vor sehr an einer Mitarbeit in Ihrem Haus interessiert. [[49]] liegt mir inzwischen das Angebot einer anderen Klinik vor, über das ich bis zum Ende des Monats entscheiden muss. Ihr Haus wäre meine erste Wahl; [[50]] wäre ich Ihnen dankbar, wenn Sie mir mitteilen könnten, [[51]] ich mit einer Entscheidung rechnen kann.\n\nFür Rückfragen stehe ich Ihnen gern telefonisch zur Verfügung. Über eine Einladung zu einem persönlichen Gespräch würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\nNadia Rahimi",
           "options": [
-            { "key": "a", "text": "ALLERDINGS" },
-            { "key": "b", "text": "DA" },
-            { "key": "c", "text": "DAMIT" },
-            { "key": "d", "text": "DARAUF" },
-            { "key": "e", "text": "DESHALB" },
-            { "key": "f", "text": "GEGENÜBER" },
-            { "key": "g", "text": "OBWOHL" },
-            { "key": "h", "text": "WANN" },
-            { "key": "i", "text": "WIE" },
-            { "key": "j", "text": "WOFÜR" }
+            {
+              "key": "a",
+              "text": "ALLERDINGS"
+            },
+            {
+              "key": "b",
+              "text": "DA"
+            },
+            {
+              "key": "c",
+              "text": "DAMIT"
+            },
+            {
+              "key": "d",
+              "text": "DARAUF"
+            },
+            {
+              "key": "e",
+              "text": "DESHALB"
+            },
+            {
+              "key": "f",
+              "text": "GEGENÜBER"
+            },
+            {
+              "key": "g",
+              "text": "OBWOHL"
+            },
+            {
+              "key": "h",
+              "text": "WANN"
+            },
+            {
+              "key": "i",
+              "text": "WIE"
+            },
+            {
+              "key": "j",
+              "text": "WOFÜR"
+            }
           ],
           "items": [
             {

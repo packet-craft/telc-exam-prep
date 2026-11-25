@@ -14,7 +14,9 @@ Tracks the build described in `requirements.txt`.
 - [x] Find the current official DTB B2 model test (`reference/official/telc-modelltest/`)
 - [x] Scoring and pass criteria taken from the official practice test (pp. 47–49)
 - [x] Listening audio: browser speech synthesis by default, MP3 per clip when the data names one
-- [ ] Optional: generate MP3s with distinct voices for more realistic listening practice
+- [x] Generate MP3s for all listening clips with Piper neural voices (`scripts/generate_audio.py`)
+- [x] Official-audio page: links to telc's free practice tests and a player for the visitor's own downloaded files (`official.html`)
+- [ ] Optional: more voice variety (every male speaker currently has the same voice, and every female speaker too)
 - [x] Link to the official telc audio from the site (do not copy it)
 - [x] Record subtests, parts, task types, item counts, timing, scoring, and pass criteria
 - [x] Note the date checked and anything that could not be verified
@@ -77,7 +79,8 @@ Tracks the build described in `requirements.txt`.
 - [x] `README.md`: local preview, schemas, adding cards and tests, Anki import, GitHub Pages steps
 - [x] Check `gh` is installed and logged in (`gh auth status`)
 - [x] Confirm the repository name and that it should be public
-- [ ] Merge the finished site into `main` through a pull request
+- [x] Merge the finished site into `main` through a pull request
 - [x] Create the GitHub repository from this folder and push (`gh repo create <repo-name> --public --source=. --remote=origin --push`)
-- [ ] Set Pages source to GitHub Actions (Settings → Pages)
-- [ ] Check the live site at `username.github.io/repo-name/`
+- [x] Set Pages source to GitHub Actions (Settings → Pages)
+- [x] Check the live site at `packet-craft.github.io/telc-exam-prep/`
+- [ ] Turn on "Keep my email addresses private" in GitHub settings, so merges made on github.com do not show a personal email

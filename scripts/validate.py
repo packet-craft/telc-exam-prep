@@ -183,6 +183,8 @@ def check_part(where, part, items_spec, extra, errors):
                         break
         else:
             errors.append(f"{sw}: kind must be 'text' or 'audio'")
+        if s.get("audio") and not os.path.isfile(s["audio"]):
+            errors.append(f"{sw}: audio file '{s['audio']}' does not exist")
     if "stimuli" in extra and len(stimuli) != extra["stimuli"]:
         errors.append(f"{where}: expected {extra['stimuli']} stimuli, found {len(stimuli)}")
 
