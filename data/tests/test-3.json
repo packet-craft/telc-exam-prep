@@ -397,7 +397,7 @@
               "id": "g1",
               "kind": "audio",
               "title": "Gespräch 1",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-1-g1.mp3",
               "transcript": [
                 {
                   "speaker": "Herr Aydın",
@@ -455,7 +455,7 @@
               "id": "g2",
               "kind": "audio",
               "title": "Gespräch 2",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-1-g2.mp3",
               "transcript": [
                 {
                   "speaker": "Amadou",
@@ -513,7 +513,7 @@
               "id": "g3",
               "kind": "audio",
               "title": "Gespräch 3",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-1-g3.mp3",
               "transcript": [
                 {
                   "speaker": "Herr Hadžić",
@@ -639,7 +639,7 @@
               "id": "s1",
               "kind": "audio",
               "title": "Sprecherin 1",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-2-s1.mp3",
               "transcript": [
                 {
                   "speaker": "Sprecherin 1",
@@ -652,7 +652,7 @@
               "id": "s2",
               "kind": "audio",
               "title": "Sprecher 2",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-2-s2.mp3",
               "transcript": [
                 {
                   "speaker": "Sprecher 2",
@@ -665,7 +665,7 @@
               "id": "s3",
               "kind": "audio",
               "title": "Sprecherin 3",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-2-s3.mp3",
               "transcript": [
                 {
                   "speaker": "Sprecherin 3",
@@ -678,7 +678,7 @@
               "id": "s4",
               "kind": "audio",
               "title": "Sprecher 4",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-2-s4.mp3",
               "transcript": [
                 {
                   "speaker": "Sprecher 4",
@@ -759,7 +759,7 @@
               "id": "v1",
               "kind": "audio",
               "title": "Vortrag",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-3-v1.mp3",
               "transcript": [
                 {
                   "speaker": "Frau Demirci",
@@ -854,7 +854,7 @@
               "id": "n1",
               "kind": "audio",
               "title": "Nachricht 1",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-4-n1.mp3",
               "transcript": [
                 {
                   "speaker": "Herr Petrov",
@@ -867,7 +867,7 @@
               "id": "n2",
               "kind": "audio",
               "title": "Nachricht 2",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-4-n2.mp3",
               "transcript": [
                 {
                   "speaker": "Frau Chen",
@@ -880,7 +880,7 @@
               "id": "n3",
               "kind": "audio",
               "title": "Nachricht 3",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-4-n3.mp3",
               "transcript": [
                 {
                   "speaker": "Herr Santos",
@@ -893,7 +893,7 @@
               "id": "n4",
               "kind": "audio",
               "title": "Nachricht 4",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-4-n4.mp3",
               "transcript": [
                 {
                   "speaker": "Frau Abdi",
@@ -906,7 +906,7 @@
               "id": "n5",
               "kind": "audio",
               "title": "Nachricht 5",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-4-n5.mp3",
               "transcript": [
                 {
                   "speaker": "Herr Jansen",
@@ -1001,7 +1001,7 @@
               "id": "k1",
               "kind": "audio",
               "title": "Nachricht einer Kundin",
-              "audio": null,
+              "audio": "assets/audio/test-3/hoeren-schreiben-k1.mp3",
               "transcript": [
                 {
                   "speaker": "Frau Haddad",

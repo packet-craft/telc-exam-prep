@@ -106,24 +106,36 @@
       stim.transcript.map(function (l) { return el("p", null, el("strong", null, l.speaker + ": "), l.text); }));
     var controls = el("div", { class: "audio-box" });
 
-    if (stim.audio) {
-      controls.appendChild(el("audio", { controls: true, preload: "none", src: stim.audio }));
-    } else if (synth) {
+    // Computer voice: used when the data names no recording, or the recording cannot be loaded.
+    var addSpeechControls = function () {
+      if (!synth) { warn.hidden = false; show.hidden = checked; return; }
       var btn = el("button", { class: "btn", type: "button", onclick: function () {
         if (playingBtn === btn) { stopSpeech(); return; }
-        if (!germanVoices().length) {
-          warn.hidden = false;
-          show.hidden = false;
-        }
+        if (!germanVoices().length) { warn.hidden = false; show.hidden = checked; }
         speak(stim.transcript, btn);
-      } }, "▶ Play");
+      } }, "\u25b6 Play");
       controls.appendChild(btn);
       controls.appendChild(el("span", { class: "small muted" }, "Computer voice. In the exam you hear each recording once."));
-    }
-    var warn = el("p", { class: "small note", hidden: !!(stim.audio || synth) },
+    };
+    var warn = el("p", { class: "small note", hidden: true },
       "No German voice is available in this browser, so playback may not work or may sound wrong. You can read the transcript instead.");
-    var show = el("button", { class: "btn", type: "button", hidden: !!(stim.audio || synth) || checked,
+    var show = el("button", { class: "btn", type: "button", hidden: true,
       onclick: function () { transcript.hidden = false; show.hidden = true; } }, "Show transcript");
+
+    if (stim.audio) {
+      var player = el("audio", { controls: true, preload: "none", src: stim.audio,
+        onplay: function () {
+          stopSpeech();
+          // Only one recording at a time.
+          var all = root.querySelectorAll("audio");
+          for (var i = 0; i < all.length; i++) if (all[i] !== player) all[i].pause();
+        },
+        onerror: function () { controls.textContent = ""; addSpeechControls(); } });
+      controls.appendChild(player);
+      controls.appendChild(el("span", { class: "small muted" }, "In the exam you hear each recording once."));
+    } else {
+      addSpeechControls();
+    }
     box.appendChild(controls);
     box.appendChild(warn);
     box.appendChild(show);
