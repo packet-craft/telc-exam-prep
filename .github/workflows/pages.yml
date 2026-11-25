@@ -1,0 +1,78 @@
+# Publishes the site to GitHub Pages on every push to main.
+#
+# One-time setup in the repository: Settings -> Pages -> Source: "GitHub Actions".
+#
+# Only the site itself is published. Project files (requirements, TODO,
+# scripts, workflows, reference material) are left out; see EXCLUDES below.
+# Until index.html exists, the workflow validates and then skips the deploy.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two deployments at once; let a running one finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      has_site: ${{ steps.site.outputs.has_site }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Validate data files and links
+        run: python3 scripts/validate.py
+
+      - name: Check whether the site exists yet
+        id: site
+        run: |
+          if [ -f index.html ]; then
+            echo "has_site=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_site=false" >> "$GITHUB_OUTPUT"
+            echo "No index.html yet - skipping deployment." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Assemble site files
+        if: steps.site.outputs.has_site == 'true'
+        # EXCLUDES: add a line here for anything that must not be published.
+        run: |
+          rsync -a ./ _site/ \
+            --exclude '_site' \
+            --exclude '.git' \
+            --exclude '.github' \
+            --exclude '.gitignore' \
+            --exclude 'scripts' \
+            --exclude 'reference' \
+            --exclude 'requirements.txt' \
+            --exclude 'TODO.md' \
+            --exclude 'README.md'
+
+      - uses: actions/configure-pages@v6
+        if: steps.site.outputs.has_site == 'true'
+
+      - uses: actions/upload-pages-artifact@v5
+        if: steps.site.outputs.has_site == 'true'
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.has_site == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,19 @@
+# Checks every pull request and every push to main.
+# See scripts/validate.py for what is checked.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Validate data files and links
+        run: python3 scripts/validate.py

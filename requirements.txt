@@ -1,0 +1,61 @@
+Build a complete, deployable exam-preparation website for hosting on GitHub Pages. Write every file into this project directory so I can push it to a repository and publish it without further changes. GitHub Pages serves only static files, so use plain HTML, CSS, and vanilla JavaScript, with no backend, no build step, no server-side code, and no external dependencies (no CDN scripts or fonts). Any progress tracking or settings must live in the browser (`localStorage`).
+
+The exam is the **Deutsch-Test für den Beruf B2 (DTB B2)**, the exam taken at the end of the BAMF Berufssprachkurse. It is NOT the older "telc Deutsch B2+ Beruf", which has a different format. Before writing any exam content, look up the current official format (the official model test / exam handbook from the exam provider) and use that as the single source of truth for subtests, task types, item counts, timing, and scoring. Do not rely on memory for these details.
+
+The site is for learners preparing for this exam and must contain these three parts:
+
+1. **Exam overview:** a clear page explaining the exam as it actually is: its official subtests and parts exactly as the provider defines them (including any combined subtests such as reading + writing or listening + writing, and any language-elements part, if the official format has them; do not force the exam into a simple reading / listening / writing / speaking split), the tasks in each, timing, scoring and pass criteria, and practical preparation tips. Where a detail could not be verified, phrase it so it doesn't assert something false. Add a visible note telling users to confirm current details with the official exam provider, and state the date the information was last checked.
+
+2. **Anki-style flashcards:** an interactive flashcard trainer for practicing Beruf B2 vocabulary together with the grammar that goes with each word.
+   - **Card content:** each card covers the word and its grammatical behavior, with an English translation and an example sentence showing the correct pattern. Card types:
+     - verbs with a fixed preposition (preposition + case, e.g. "sich bewerben um + Akk.")
+     - nouns with a fixed preposition
+     - adjectives with a fixed preposition
+     - verbs with a dative object, an accusative object, or both
+     - reflexive verbs (with the case of the reflexive pronoun where it matters)
+     - Nomen-Verb-Verbindungen (e.g. "eine Entscheidung treffen")
+     - nouns always shown with article and plural
+   - **Topics:** workplace and professional vocabulary typical of B2 Beruf: applications, meetings, complaints, negotiations, workplace organization, emails and formal correspondence, customer service, safety and regulations, training and further education.
+   - **Deck size:** at least 250 cards, with at least 20 cards in every topic and at least 25 cards of every card type.
+   - **Deck storage:** one separate JSON data file. Every card has a stable, unique `id` that never changes, so saved progress survives when I add or edit cards. Document the card schema in the README.
+   - **Spaced repetition:** a simplified SM-2 algorithm with Anki-like rating buttons (Again / Hard / Good / Easy), each showing the interval it will produce. Progress is saved in `localStorage` keyed by card `id`. Include a configurable daily new-card limit, a "reset progress" action with confirmation, and export/import of progress as a JSON file (for backup or moving to another device).
+   - **Interface:** flip the card by click/tap or the space bar; rate with keys 1–4; filter by topic and by card type; show progress (due today, new, learning, mature, and overall counts).
+   - **Anki export:** a download button that generates a tab-separated `.txt` file importable into Anki directly in the browser from the JSON deck, so the export can never be out of date. Do not ship a separately maintained export file. Explain the Anki import steps in the README.
+
+3. **Model tests:** at least **4 complete practice test sets**. Each set covers every subtest and part of the official format, with the same task types and the same number of items per part as the official model test.
+   - **Originality:** all texts, dialogues, and questions must be original. Model them on the official task types, but do not copy or closely paraphrase published model tests or textbook material.
+   - **Interactivity:** selectable answers, a check button, a score per part and per test, and the correct answers with a brief explanation for each item. Save the last result per test in `localStorage`.
+   - **Listening:** provide a transcript for every listening task, hidden until the answers are checked. Add a "play" button that reads the transcript aloud with the browser's built-in speech synthesis (`de-DE` voice), with a fallback message when no German voice is available, and a note that users can add their own audio files (document where to put them and how to reference them in the data file).
+   - **Writing and speaking:** provide the prompts plus a model answer and evaluation criteria for self-assessment. These parts are not auto-scored: the test score covers only the auto-checked parts, and the result page says so clearly.
+   - **Timing:** show the official time allowed per subtest and offer an optional countdown timer.
+   - **Storage:** one separate JSON data file per test set, with the schema documented in the README, so I can add more tests.
+
+**General requirements**
+
+- Clean, modern look; works well on mobile (down to 360 px wide); light and dark mode following the system setting; simple navigation between the three sections on every page.
+- Basic accessibility: semantic HTML, keyboard-operable controls, visible focus, sufficient contrast, `lang="de"` on German content.
+- Interface in English, content in German. All German must be correct and natural at B2 level, use formal register (Sie) in workplace correspondence, and use correct umlauts and ß (never "ae/oe/ue/ss" substitutes).
+- All internal links and file paths must be relative, so the site works from a repository subpath (e.g. `username.github.io/repo-name/`).
+- Data is loaded with `fetch()`, which browsers block on `file://`. Local preview therefore needs a local static server (`python3 -m http.server`); document this in the README. Show a clear on-page error if a data file fails to load.
+- Production-quality code, commented where it helps me modify it.
+
+**Verification before delivery**
+
+- Every JSON data file parses, and every card and test item conforms to its documented schema (unique ids, required fields present, each question has exactly one correct answer where applicable).
+- The deck meets the size and distribution minimums above.
+- Each test set has the official number of parts and items.
+- Every internal link and data path resolves when the site is served from a subpath.
+- List anything about the exam format that could not be verified against the official source.
+
+**GitHub repository**
+
+- Create a new GitHub repository for this project from this folder: run `git init` here (default branch `main`), add a `.gitignore`, and commit the finished site.
+- Create the repository with the `gh` CLI (`gh repo create <repo-name> --public --source=. --remote=origin --push`). Ask me for the repository name and confirm it should be public before creating it (GitHub Pages on a free account requires a public repository). If `gh` is not installed or not logged in, stop and tell me what to run instead of working around it.
+- Deployment runs through the GitHub Actions pipeline in `.github/workflows/`: `ci.yml` runs `scripts/validate.py` on every pull request, and `pages.yml` publishes the site on every push to `main`, leaving out project files (requirements, TODO, scripts, `reference/`). Work on feature branches and merge through pull requests; do not commit directly to `main`.
+- After the push, set GitHub Pages to use the pipeline (Settings → Pages → Source: GitHub Actions) and report the live URL.
+
+**Deliver**
+
+- All files written to this project directory (do not paste full file contents into the chat)
+- The project file tree, with one line per file saying what it is
+- A `README.md` with: local preview instructions, how to add cards and tests (schemas), how to import the deck into Anki, and short step-by-step instructions for creating the GitHub repository, pushing the files, and enabling GitHub Pages (Settings → Pages → Source: GitHub Actions)
