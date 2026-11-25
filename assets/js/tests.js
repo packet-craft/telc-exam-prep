@@ -173,8 +173,9 @@
     var given = state.answers[item.n];
     var name = "q" + item.n;
     var box = el("div", { class: "item", id: "item-" + item.n });
-    var setAnswer = function (v) { state.answers[item.n] = v; saveState(); updateGaps(); };
-    var legend = [el("span", { class: "n" }, item.n + "."), " ", el("span", { lang: "de" }, item.prompt || "")];
+    var setAnswer = function (v) { state.answers[item.n] = v; saveState(); };
+    var legend = [el("span", { class: "n" }, item.n + "."), " ",
+      el("span", { lang: "de", class: (item.prompt || "").length > 110 ? "long" : null }, item.prompt || "")];
 
     if (item.type === "match") {
       var select = el("select", { id: name, disabled: checked, "aria-label": "Answer for item " + item.n,
@@ -210,30 +211,32 @@
     return box;
   }
 
-  /** Gap text with [[n]] placeholders; each gap shows the currently chosen answer. */
-  function renderGapText(part) {
+  /** Gap text with [[n]] placeholders. Each gap is a drop-down, so the learner answers inside the text. */
+  function renderGapText(part, sectionId) {
+    var checked = !!state.checked[sectionId];
     var box = el("div", { class: "gap-text", lang: "de" });
-    part.gapText.split(/(\[\[\d+\]\])/).forEach(function (chunk) {
-      var m = chunk.match(/^\[\[(\d+)\]\]$/);
-      if (!m) { box.appendChild(document.createTextNode(chunk)); return; }
-      box.appendChild(el("a", { class: "gap", href: "#item-" + m[1], "data-gap": m[1] }, m[1]));
+    part.gapText.split(/\n\s*\n/).forEach(function (paragraph) {
+      var p = el("p");
+      paragraph.split(/(\[\[\d+\]\])/).forEach(function (chunk) {
+        var m = chunk.match(/^\[\[(\d+)\]\]$/);
+        if (!m) { p.appendChild(document.createTextNode(chunk)); return; }
+        var n = Number(m[1]);
+        var item = (part.items || []).filter(function (it) { return it.n === n; })[0];
+        if (!item) { p.appendChild(document.createTextNode("(" + n + ")")); return; }
+        var select = el("select", { class: "gap-select", "data-gap": n, disabled: checked, "aria-label": "Gap " + n,
+          onchange: function () { state.answers[n] = select.value; saveState(); } },
+          el("option", { value: "" }, "(" + n + ")"));
+        var choices = item.type === "mc"
+          ? ["a", "b", "c"].map(function (k) { return [k, item.options[k]]; })
+          : part.options.map(function (o) { return [o.key, o.text]; });
+        choices.forEach(function (c) { select.appendChild(el("option", { value: c[0] }, c[1])); });
+        select.value = state.answers[n] || "";
+        if (checked) select.classList.add(state.answers[n] === item.answer ? "correct" : "wrong");
+        p.appendChild(select);
+      });
+      box.appendChild(p);
     });
     return box;
-  }
-
-  function updateGaps() {
-    var spans = root.querySelectorAll("[data-gap]");
-    for (var i = 0; i < spans.length; i++) {
-      var n = spans[i].getAttribute("data-gap");
-      var item = findItem(Number(n));
-      var v = state.answers[n];
-      var text = n;
-      if (item && v) {
-        text = n + ": " + (item.item.type === "mc" ? item.item.options[v]
-          : (item.part.options.filter(function (o) { return o.key === v; })[0] || {}).text || v);
-      }
-      spans[i].textContent = text;
-    }
   }
 
   function findItem(n) {
@@ -318,7 +321,9 @@
     var loose = items.filter(function (it) { return !it.stimulus; });
 
     if (part.gapText) {
-      box.appendChild(renderGapText(part));
+      box.appendChild(renderGapText(part, sectionId));
+      // Gaps are answered inside the text; the item list appears after checking, with the explanations.
+      if (!state.checked[sectionId]) loose = [];
       if (part.options) box.appendChild(renderOptions(part));
     } else if (part.options && stimuli.length) {
       box.appendChild(renderOptions(part));   // e.g. statements to read before listening
@@ -458,7 +463,10 @@
           onclick: function () { checkSection(section); } }, checked ? "Checked" : "Check answers for this part") : null,
         el("button", { class: "btn danger", type: "button", onclick: resetTest }, "Reset whole test")));
     root.appendChild(panel);
-    updateGaps();
+    // On narrow screens the part buttons scroll sideways: keep the current one visible.
+    var active = root.querySelector('.tabs [aria-selected="true"]');
+    var strip = root.querySelector(".tabs");
+    if (active && strip) strip.scrollLeft = active.offsetLeft - strip.offsetLeft - 16;
   }
 
   function showTest(id) {

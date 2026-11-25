@@ -94,6 +94,13 @@
     setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
   }
 
+  // On narrow screens the navigation scrolls sideways: keep the current page's link visible.
+  document.addEventListener("DOMContentLoaded", function () {
+    var nav = document.querySelector(".site-nav");
+    var current = nav && nav.querySelector('[aria-current="page"]');
+    if (current) nav.scrollLeft = current.offsetLeft - nav.offsetLeft - 16;
+  });
+
   window.App = {
     load: load, save: save, remove: remove,
     el: el, paragraphs: paragraphs,

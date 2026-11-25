@@ -83,20 +83,23 @@ main.wrap { padding-bottom: 64px; }
 /* ---------- generic components ---------- */
 
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
-.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+/* Cards in a grid keep their button at the bottom, so buttons line up across cards. */
+.grid > .card { display: flex; flex-direction: column; align-items: flex-start; }
+.grid > .card > .btn { margin-top: auto; }
 .card h2:first-child, .card h3:first-child { margin-top: 0; }
 
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
   min-height: 42px; padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border);
-  background: var(--surface); color: var(--text); font: inherit; font-weight: 600; cursor: pointer; text-decoration: none;
+  background: var(--surface); color: var(--text); font: inherit; font-weight: 600; cursor: pointer; text-decoration: none; white-space: nowrap;
 }
 .btn:hover { background: var(--surface-2); }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
 .btn.primary:hover { filter: brightness(1.08); }
 .btn.danger { color: var(--bad); }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
-.btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+.btn-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 12px 0; }
 
 .note { background: var(--warn-soft); border-left: 4px solid var(--warn); padding: 10px 14px; border-radius: 6px; margin: 16px 0; }
 .info { background: var(--accent-soft); border-left: 4px solid var(--accent); padding: 10px 14px; border-radius: 6px; margin: 16px 0; }
@@ -105,7 +108,9 @@ main.wrap { padding-bottom: 64px; }
 .badge { display: inline-block; padding: 1px 9px; border-radius: 999px; background: var(--surface-2); color: var(--muted); font-size: .8rem; font-weight: 600; }
 
 .table-scroll { overflow-x: auto; margin: 12px 0; }
-table { border-collapse: collapse; width: 100%; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 680px; background: var(--surface); }
+.nw { white-space: nowrap; }
+/* Wide tables scroll sideways inside .table-scroll instead of squeezing their columns. */
 th, td { text-align: left; padding: 8px 10px; border: 1px solid var(--border); vertical-align: top; }
 th { background: var(--surface-2); font-weight: 600; }
 
@@ -142,7 +147,7 @@ details[open] > summary { margin-bottom: 8px; }
 
 .flashcard {
   background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow);
-  min-height: 260px; padding: 22px; margin: 16px 0; text-align: center; cursor: pointer;
+  min-height: 260px; padding: 22px; margin: 16px auto; max-width: 660px; text-align: center; cursor: pointer;
   display: flex; flex-direction: column; justify-content: center; gap: 10px;
 }
 .flashcard .meta { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; }
@@ -152,7 +157,7 @@ details[open] > summary { margin-bottom: 8px; }
 .flashcard .example { font-size: 1.05rem; }
 .flashcard hr { border: 0; border-top: 1px solid var(--border); width: 100%; margin: 6px 0; }
 
-.ratings { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.ratings { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; max-width: 660px; margin: 0 auto 12px; }
 .ratings .btn { flex-direction: column; gap: 0; padding: 6px 4px; }
 .ratings .btn small { font-weight: 400; color: var(--muted); }
 .ratings .again { border-color: var(--bad); }
@@ -191,12 +196,16 @@ kbd { font: .8rem ui-monospace, monospace; border: 1px solid var(--border); bord
 .options.words { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
 .key { display: inline-block; min-width: 1.6em; text-align: center; font-weight: 700; background: var(--accent-soft); color: var(--accent); border-radius: 6px; margin-right: 6px; }
 
-.gap-text { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; white-space: pre-line; line-height: 2; }
-.gap { text-decoration: none; display: inline-block; min-width: 3.2em; padding: 0 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); font-weight: 700; text-align: center; line-height: 1.6; }
+.gap-text { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 6px 16px; }
+.gap-text p { white-space: pre-line; line-height: 2.2; margin: .6em 0; }
+.gap-select { padding: 2px 6px; margin: 0 2px; max-width: 100%; border-color: var(--accent); background: var(--accent-soft); font-weight: 600; }
+.gap-select.correct { border-color: var(--ok); background: var(--ok-soft); }
+.gap-select.wrong { border-color: var(--bad); background: var(--bad-soft); }
 
 .item { border: 1px solid var(--border); border-radius: 8px; background: var(--surface); padding: 10px 12px; margin: 10px 0; }
 .item fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .item legend, .item .prompt { font-weight: 600; padding: 0; margin-bottom: 6px; display: block; }
+.item .long { font-weight: 400; }
 .item .n { display: inline-block; min-width: 1.9em; color: var(--muted); font-weight: 700; }
 .choice { display: flex; gap: 8px; align-items: flex-start; padding: 5px 6px; border-radius: 6px; font-weight: 400; cursor: pointer; }
 .choice:hover { background: var(--surface-2); }
@@ -228,6 +237,11 @@ kbd { font: .8rem ui-monospace, monospace; border: 1px solid var(--border); bord
 
 @media (max-width: 520px) {
   .site-header { position: static; }
+  /* One swipeable row instead of several wrapped rows. */
+  .site-nav, .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; max-width: 100%; }
+  .site-nav::-webkit-scrollbar, .tabs::-webkit-scrollbar { display: none; }
+  .site-nav a, .tabs button { flex: 0 0 auto; }
+  .site-header .wrap { flex-direction: column; align-items: stretch; gap: 4px; }
   h1 { font-size: 1.45rem; }
   .stats { grid-template-columns: repeat(2, 1fr); }
   .ratings { grid-template-columns: repeat(2, 1fr); }
